@@ -6,18 +6,58 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "dashboard",
-    component: () => import("@/views/MainDashBoard"),
+    name: "home",
+    component: () => import("@/views/Home"),
   },
   {
-    path: "/projects",
-    name: "projects",
-    component: () => import("@/views/MainProjects"),
+    path: "/programs",
+    name: "programs",
+    component: () => import("@/views/Programs"),
   },
   {
-    path: "/team",
-    name: "team",
-    component: () => import("@/views/MainTeam"),
+    path: "/programs/quiz",
+    name: "quiz",
+    component: () => import("@/views/ProgramsQuiz"),
+  },
+  {
+    path: "/programs/radio",
+    name: "radio",
+    component: () => import("@/views/ProgramsRadio"),
+  },
+  {
+    path: "/access",
+    name: "access",
+    component: () => import("@/views/Access"),
+  },
+  {
+    path: "/map",
+    name: "map",
+    component: () => import("@/views/Map"),
+  },
+  {
+    path: "/info/about",
+    name: "about",
+    component: () => import("@/views/InfoAbout"),
+  },
+  {
+    path: "/info/ict",
+    name: "ict",
+    component: () => import("@/views/InfoIct"),
+  },
+  {
+    path: "/info/privacy",
+    name: "privacy",
+    component: () => import("@/views/InfoPrivacy"),
+  },
+  {
+    path: "/message",
+    name: "message",
+    component: () => import("@/views/Message"),
+  },
+  {
+    path: "/forstudents",
+    name: "students",
+    component: () => import("@/views/Students"),
   },
 ];
 
