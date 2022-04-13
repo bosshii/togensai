@@ -18,8 +18,8 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="http://placehold.jp/350x165.png"
-              height="125"
+              src="/images/PlaceHolder_join.png"
+              height="300"
               class="grey darken-4"
             ></v-img>
             <v-card-title class="text-h6">
@@ -31,8 +31,8 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="http://placehold.jp/350x165.png"
-              height="125"
+              src="/images/PlaceHolder_quiz.png"
+              height="300"
               contain
               class="grey darken-4"
             ></v-img>
@@ -82,7 +82,7 @@
   padding-bottom: 50px;
 }
 .home-content {
-  background: url("/images/home.jpg");
+  background: url("/images/home.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
