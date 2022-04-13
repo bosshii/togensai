@@ -5,7 +5,7 @@
     <v-container fluid fill-height class="home-content">
      <v-row>
       <v-col class="home-content-text">
-          <p>あああ</p>
+          <p>{{ process.env.VUE_APP_FESNAME }}</p>
       </v-col>
      </v-row>
     </v-container>
@@ -18,7 +18,7 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="/images/PlaceHolder_join.png"
+              src="@/images/PlaceHolder_join.png"
               height="300"
               class="grey darken-4"
             ></v-img>
@@ -31,7 +31,7 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="/images/PlaceHolder_quiz.png"
+              src="@/images/PlaceHolder_quiz.png"
               height="300"
               contain
               class="grey darken-4"

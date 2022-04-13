@@ -3,13 +3,11 @@
     <h1 class="subtitle-1 grey--text">生徒向けページ</h1>
     <v-container class="my-5">
       <u>求人募集</u>
+      <p>{{ process.env.VUE_APP_FESNAME }}で活動してみませんか？局員としての経験は確実に今後の役に立ちます！<p>
       <v-expansion-panels>
         <v-expansion-panel v-for="work in listedWorks" :key="work.title">
-          <v-expansion-panel-header>{{
-            work.title
-          }}</v-expansion-panel-header>
+          <v-expansion-panel-header>{{work.title}}</v-expansion-panel-header>
           <v-expansion-panel-content class="px-4 grey--text">
-            <div class="font-weight-bold">{{ work.due }}</div>
             <div>{{ work.content }}</div>
           </v-expansion-panel-content>
         </v-expansion-panel>
@@ -26,26 +24,22 @@ export default {
         {
           title: "局1",
           display: "1",
-          due: "内容1a",
-          content2: "内容1b",
+          content: "内容1",
         },
         {
           title: "局2",
           display: "1",
-          due: "内容2a",
-          content2: "内容2b",
+          content: "内容2",
         },
         {
           title: "局3",
           display: "1",
-          due: "内容3a",
-          content2: "内容3b",
+          content: "内容3",
         },
         {
           title: "局4",
           display: "1",
-          due: "内容4a",
-          content2: "4b",
+          content: "内容4",
         },
       ],
     };
