@@ -3,7 +3,7 @@
     <h1 class="subtitle-1 grey--text">生徒向けページ</h1>
     <v-container class="my-5">
       <u>求人募集</u>
-      <p>{{ process.env.VUE_APP_FESNAME }}で活動してみませんか？局員としての経験は確実に今後の役に立ちます！<p>
+      <p>{{ process.env.VUE_APP_FESNAME }}で活動してみませんか？局員としての経験は確実に今後の役に立ちます！</p>
       <v-expansion-panels>
         <v-expansion-panel v-for="work in listedWorks" :key="work.title">
           <v-expansion-panel-header>{{work.title}}</v-expansion-panel-header>

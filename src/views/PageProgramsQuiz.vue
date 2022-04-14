@@ -1,10 +1,10 @@
 <template>
-  <div class="work">
+  <div class="quiz">
     <h1 class="subtitle-1 grey--text">クイズ企画</h1>
     <v-container class="my-5">
       <u>求人募集</u>
       <v-expansion-panels>
-        <v-expansion-panel v-for="work in listedQuiz" :key="quiz.title">
+        <v-expansion-panel v-for="quiz in listedQuiz" :key="quiz.title">
           <v-expansion-panel-header>{{
             quiz.title
           }}</v-expansion-panel-header>

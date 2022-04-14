@@ -18,7 +18,7 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="@/images/PlaceHolder_join.png"
+              src="http://placehold.jp/350x165.png"
               height="300"
               class="grey darken-4"
             ></v-img>
@@ -31,7 +31,7 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="@/images/PlaceHolder_quiz.png"
+              src="http://placehold.jp/350x165.png"
               height="300"
               contain
               class="grey darken-4"
