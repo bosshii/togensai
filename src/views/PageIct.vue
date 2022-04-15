@@ -1,13 +1,17 @@
 <template>
-  <div class="work">
-    <h1 class="subtitle-1 grey--text">404 - エラー</h1>
+  <div class="access">
     <v-container class="my-5">
-        <template>
-            <v-card elevation="2" loading>
-              <v-card-title><span class="font-weight-bold">404</span> ページが見つかりません</v-card-title>
-              <v-card-text>このページは現在作成中です！しばらくお待ちください！</v-card-text>
-            </v-card>
-        </template>
+      <div class="text-h3">ICT関連</div>
+      <br><br>
+      <v-card elevation="2" loading>
+        <v-card-title>準備中</v-card-title>
+        <v-card-text>このページは現在作成中です！しばらくお待ちください！</v-card-text>
+      </v-card>
+      <div class="text-h4">情報委員会から</div>
+      <p>（・・・お願い文・・・・）</p>
+      <br>
+      <div class="text-h4">このサイトについて</div>
+      <p>（いろいろ）</p>
     </v-container>
   </div>
 </template>

@@ -2,10 +2,10 @@
  <div class="Home">
   <template>
    <section class="home-c">
-    <v-container fluid fill-height class="home-content">
+    <v-container fluid fill-height padless class="home-content">
      <v-row>
       <v-col class="home-content-text">
-          <p>{{ process.env.VUE_APP_FESNAME }}</p>
+          <div class="text-h1">兎原祭</div>
       </v-col>
      </v-row>
     </v-container>
