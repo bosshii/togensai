@@ -9,7 +9,7 @@
         <span>第10回兎原祭</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn depressed color="blue lighten-1" :to="{name: 'reservation'}">
+      <v-btn depressed color="pink accent-2" :to="{name: 'reservation'}">
         <span style="color:white">入場予約<v-icon right>mdi-account-plus</v-icon></span>
       </v-btn>
     </v-app-bar>
@@ -49,14 +49,14 @@ export default {
     return {
       drawer: false,
       links: [
-        { icon: "mdi-widgets", text: "ホーム", route: "/" },
-        { icon: "mdi-folder", text: "企画一覧・マップ", route: "/programs" },
-        { icon: "mdi-account-plus", text: "入場予約について", route: "/reservation" },
+        { icon: "mdi-rabbit", text: "ホーム", route: "/" },
+        { icon: "mdi-widgets", text: "企画一覧・マップ", route: "/programs" },
+        { icon: "mdi-account-plus", text: "入場の流れ", route: "/reservation" },
         { icon: "mdi-map", text: "本校へのアクセス", route: "/access" },
         { icon: "mdi-information", text: "文化祭について", route: "/about" },
+        { icon: "mdi-account-tie-voice", text: "校長・委員長挨拶", route: "/message" },
         { icon: "mdi-cellphone-link", text: "ICT関連", route: "/ict" },
-        { icon: "mdi-account-tie-voice", text: "校長メッセージ", route: "/message" },
-        { icon: "mdi-school", text: "生徒向け", route: "/forstudents" },
+        { icon: "mdi-bullhorn", text: "お知らせ・お願い", route: "/announcements" },
       ],
     };
   },

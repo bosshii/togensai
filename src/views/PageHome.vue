@@ -78,9 +78,11 @@
 <script>
 </script>
 <style lang="scss" scoped>
-.home {
+/*
+.home-c {
   padding-bottom: 50px;
 }
+*/
 .home-content {
   background: url("/images/home.png");
   background-size: cover;

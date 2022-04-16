@@ -1,7 +1,7 @@
 <template>
-  <div class="access">
+  <div class="arena">
     <v-container class="my-5">
-      <div class="text-h3">本校へのアクセス</div>
+      <div class="text-h3">アリーナ企画</div>
       <br><br>
             <v-card elevation="2" loading="pink" loader-height="8">
               <v-card-title>準備中</v-card-title>
