@@ -7,6 +7,8 @@
         <v-card-title>準備中</v-card-title>
         <v-card-text>一部のデータは準備中です！しばらくお待ちください！</v-card-text>
       </v-card>
+
+
     </v-container>
   </div>
 </template>

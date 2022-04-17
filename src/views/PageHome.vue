@@ -84,7 +84,7 @@
 }
 */
 .home-content {
-  background: url("/images/home.png");
+  background: url("/public/home.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
