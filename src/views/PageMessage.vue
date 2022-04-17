@@ -1,7 +1,7 @@
 <template>
   <div class="message">
     <v-container class="my-5">
-      <div class="text-h3">校長・実行委員長メッセージ</div>
+      <div class="text-h3">校長・委員長挨拶</div>
       <br><br>
       本校校長・井上真理と第10回兎原祭実行委員長からのご挨拶です。
       <br>

@@ -24,17 +24,21 @@
               <v-stepper-content step="1">
                 みんはやアプリをダウンロードします。
                 <v-row><v-col cols="5" xs="12" sm="12" md="6" lg="4" xl="4"><a href='https://play.google.com/store/apps/details?id=com.tactosh.quiz'><v-img src="/app_android.png" min-width="150px" max-width="300px"></v-img></a></v-col></v-row>
-                <v-row><v-col cols="5" xs="12" sm="12" md="6" lg="4" xl="4"><a href='https://apps.apple.com/jp/app/id1044039663'><v-img src="/app_ios.png" min-width="150px" max-width="300px"></v-img></a></v-col></v-row>
+                <v-row><v-col cols="5" xs="12" sm="12" md="6" lg="4" xl="4"><a href='https://apps.apple.com/jp/app/id1044039663'><v-img src="/app_ios.png" min-width="150px" max-width="300px"></v-img></a></v-col></v-row><br>
                 <v-btn color="primary" @click="e6 = 2">次へ</v-btn>        
               </v-stepper-content>
               <v-stepper-step :complete="e6 > 2" step="2">初期設定をする</v-stepper-step>
               <v-stepper-content step="2">
-                名前やアイコンを設定します。未設定のままでも可能ですが、分かりやすくする為にも設定することをおすすめします。<br>
+                名前やアイコンを設定しましょう。未設定のままでも可能ですが、分かりやすくする為にも設定することをおすすめします。<br>
                 <v-btn color="primary" @click="e6 = 3">次へ</v-btn>
               </v-stepper-content>
               <v-stepper-step step="3">フリーマッチに入室</v-stepper-step>
               <v-stepper-content step="3">
                 まずアプリのホーム画面下部にある「フリーマッチ」ボタンをタップ。<br>次に、右下「ルームID入力」を押し、IDを入力して、虫眼鏡アイコンをタップすると予選会場に入れます！<br>※ルームIDは開催前に校内に掲示します。<br>
+                <v-row>
+                  <v-col cols="12" xs="12" sm="12" md="12" lg="4" xl="4"><v-img src="/minhaya1.png" min-width="150px" max-width="300px"></v-img></v-col>
+                  <v-col cols="12" xs="12" sm="12" md="12" lg="4" xl="4"><v-img src="/minhaya2.png" min-width="150px" max-width="300px"></v-img></v-col>
+                </v-row>
                 <v-btn color="primary" @click="e6 = 1">最初から見る</v-btn>
               </v-stepper-content>
             </v-stepper>

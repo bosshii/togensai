@@ -12,37 +12,37 @@ const routes = [
   {
     path: "/programs",
     name: "programs",
-    component: () => import("@/views/PagePrograms"),
+    component: () => import("@/views/programs/PagePrograms"),
   },
   {
     path: "/programs/arena",
     name: "arena",
-    component: () => import("@/views/PageProgramsArena"),
+    component: () => import("@/views/programs/PageProgramsArena"),
   },
   {
     path: "/programs/homerooms",
     name: "radio",
-    component: () => import("@/views/PageProgramsHomerooms"),
+    component: () => import("@/views/programs/PageProgramsHomerooms"),
   },
   {
     path: "/programs/k-1",
     name: "k1",
-    component: () => import("@/views/PageProgramsK1"),
+    component: () => import("@/views/programs/PageProgramsK1"),
   },
   {
     path: "/programs/others",
     name: "others",
-    component: () => import("@/views/PageProgramsOthers"),
+    component: () => import("@/views/programs/PageProgramsOthers"),
   },
   {
     path: "/programs/quiz",
     name: "quiz",
-    component: () => import("@/views/PageProgramsQuiz"),
+    component: () => import("@/views/programs/PageProgramsQuiz"),
   },
   {
     path: "/programs/radio",
     name: "radio",
-    component: () => import("@/views/PageProgramsRadio"),
+    component: () => import("@/views/programs/PageProgramsRadio"),
   },
   {
     path: "/reservation",

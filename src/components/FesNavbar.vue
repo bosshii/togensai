@@ -1,8 +1,7 @@
 <template>
   <nav @click="drawer = false">
-    <v-app-bar flat class="grey lighten-5" app>
+    <v-app-bar class="grey lighten-5" app elevate-on-scroll>
       <v-app-bar-nav-icon
-        class="grey lighten-4"
         @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
       <v-toolbar-title class="text-uppercase black--text">
@@ -20,7 +19,7 @@
           <v-img max-width="150" src="@/assets/feslogo.png" class="ma-3 align-self-center" size="100"></v-img>
         </v-col>
       </v-row>
-      <v-list>
+      <v-list rounded>
         <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
           <v-list-item-action>
             <v-icon class="white--text">{{ link.icon }}</v-icon>
@@ -35,7 +34,7 @@
             <v-icon class="white--text">mdi-lock</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title class="white--text">プライバシーポリシー</v-list-item-title>
+            <v-list-item-title class="white--text">プライバシー</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>

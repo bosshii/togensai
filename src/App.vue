@@ -20,3 +20,13 @@ export default {
   },
 };
 </script>
+
+<style>
+.text-h3 {
+  border-bottom: solid 3px #E91E63;
+}
+.text-h4 {
+  padding: 0rem 2rem;
+  border-left: 4px solid #EC407A;
+}
+</style>
