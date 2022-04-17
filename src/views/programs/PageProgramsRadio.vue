@@ -36,7 +36,7 @@
         </v-tab-item>
       </v-tabs>
       <br>
-      <div class="text-h4">お便り＆投票企画</div>
+      <div class="text-h4">お便り＆投票</div>
       番組へのお便りや投票を随時受け付ける予定です！お楽しみに！
     </v-container>
   </div>

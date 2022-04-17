@@ -28,7 +28,7 @@
           </v-card>
         </v-col>
         <v-col class="d-flex justify-center" align-self="start">
-          <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="https://www.edu.kobe-u.ac.jp/kuss-top/activity/festival/img/togetan.png" alt="校長・井上真理"></v-avatar>
+          <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="/unknown.png" alt="実行委員長"></v-avatar>
         </v-col>
       </v-row>
     </v-container>

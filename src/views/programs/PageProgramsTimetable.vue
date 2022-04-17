@@ -1,7 +1,7 @@
 <template>
-  <div class="others">
+  <div class="k1">
     <v-container class="my-5">
-      <div class="text-h3">その他企画</div>
+      <div class="text-h3">K-1グランプリ</div>
       <br><br>
             <v-card elevation="2" loading="pink" loader-height="8">
               <v-card-title>準備中</v-card-title>

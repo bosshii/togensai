@@ -16,7 +16,7 @@
     <v-navigation-drawer app color="pink accent-2" v-model="drawer">
       <v-row class="d-flex flex-column" align="center">
         <v-col class="mt-5 d-flex flex-column" align="center">
-          <v-img max-width="150" src="@/assets/feslogo.png" class="ma-3 align-self-center" size="100"></v-img>
+          <router-link :to="{name: 'home'}"><v-img max-width="150" src="@/assets/feslogo.png" class="ma-3 align-self-center" size="100"></v-img></router-link>
         </v-col>
       </v-row>
       <v-list rounded>
@@ -52,7 +52,8 @@ export default {
         { icon: "mdi-widgets", text: "企画一覧・マップ", route: "/programs" },
         { icon: "mdi-account-plus", text: "入場の流れ", route: "/reservation" },
         { icon: "mdi-map", text: "本校へのアクセス", route: "/access" },
-        { icon: "mdi-information", text: "文化祭について", route: "/about" },
+        { icon: "mdi-information", text: "兎原祭について", route: "/about" },
+        { icon: "mdi-food", text: "食販", route: "/foods" },
         { icon: "mdi-account-tie-voice", text: "校長・委員長挨拶", route: "/message" },
         { icon: "mdi-cellphone-link", text: "ICT関連", route: "/ict" },
         { icon: "mdi-bullhorn", text: "お知らせ・お願い", route: "/announcements" },
