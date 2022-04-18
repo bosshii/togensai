@@ -1,7 +1,7 @@
 <template>
  <div class="Home">
   <template>
-   <section class="home-c">
+   <section class="home-c mx-n4">
     <v-container fluid fill-height padless class="home-content">
      <v-row>
       <v-col class="home-content-text">
@@ -12,71 +12,66 @@
    </section>
   </template>
   <template>
-   <v-container class="fill-height" fluid style="min-height: 434px">
-    <v-fade-transition mode="out-in">
+    <v-container fluid style="min-height: 434px">
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
+          <v-carousel cycle hide-delimiter-background show-arrows-on-hover height="auto" style="max-width:500px">
+            <v-carousel-item><router-link :to=" { name: 'k1' } "><v-img src="/hometop_k-1.png"></v-img></router-link></v-carousel-item>
+            <v-carousel-item><router-link :to=" { name: 'home' } "><v-img src="/hometop_bekuss.jpg"></v-img></router-link></v-carousel-item>
+            <v-carousel-item><v-img src="/k-1.png"></v-img></v-carousel-item>
+          </v-carousel>
+        </v-col>
+        <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
+          <v-card elevation="2" color="pink lighten-4" loading tile>
+            <v-card-text><div class="text-body-1" style="color:black">
+              今年の兎原祭では、新型コロナウィルス感染拡大防止のため、入場を<b>完全予約制</b>といたします。<router-link class="text-decoration-none" :to=" { name: 'reservation' } ">入場予約について詳しく見る➪</router-link>
+            </div></v-card-text>
+          </v-card>
+          <v-card rounded="xl" class="rounded-tl-0"><v-card-title class="text-h6"><v-icon>mdi-lightbulb-on</v-icon>
+            <router-link class="text-decoration-none" :to=" { name: 'about' } ">兎原祭とは？</router-link>&nbsp;/&nbsp;<router-link class="text-decoration-none" :to=" { name: 'programs' } ">企画一覧</router-link>
+          </v-card-title></v-card>
+        </v-col>
+      </v-row>
+      <v-row dense>
+        <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img
-              src="http://placehold.jp/350x165.png"
-              height="300"
-              class="grey darken-4"
-            ></v-img>
-            <v-card-title class="text-h6">
-              あああ
-            </v-card-title>
+            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-card-actions>
+              <div style="color:black">ピックアップリンク</div>
+            </v-card-actions>
           </v-card>
         </v-col>
-
-        <v-col cols="6">
+        <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img
-              src="http://placehold.jp/350x165.png"
-              height="300"
-              contain
-              class="grey darken-4"
-            ></v-img>
-            <v-card-title class="text-h6">
-              あああ
-            </v-card-title>
+            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-card-actions>
+              <div style="color:black">ピックアップリンク</div>
+            </v-card-actions>
           </v-card>
         </v-col>
-
-        <v-col cols="6">
+        <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img
-              src="http://placehold.jp/350x165.png"
-              max-height="125"
-              class="grey darken-4"
-            ></v-img>
-            <v-card-title class="text-h6">
-              あああ
-            </v-card-title>
+            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-card-actions>
+              <div style="color:black">ピックアップリンク</div>
+            </v-card-actions>
           </v-card>
         </v-col>
-
-        <v-col cols="6">
+        <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img
-              src="http://placehold.jp/350x165.png"
-              max-height="125"
-              contain
-              class="grey darken-4"
-            ></v-img>
-            <v-card-title class="text-h6">
-              max-height with contain
-            </v-card-title>
+            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-card-actions>
+              <div style="color:black">ピックアップリンク</div>
+            </v-card-actions>
           </v-card>
         </v-col>
       </v-row>
-    </v-fade-transition>
    </v-container>
   </template>
  </div>
 </template>
 
-<script>
-</script>
+<script></script>
 <style lang="scss" scoped>
 /*
 .home-c {

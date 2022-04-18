@@ -9,13 +9,14 @@
           今年の兎原祭では、新型コロナウィルス感染拡大防止の観点から入場人数の制限、クラスター発生時の連絡経路確保など、さまざまな対策を確実に実施する必要上、入場を<b>完全予約制</b>といたします。当日入場はできませんので、ご了承ください。
         </div></v-card-text>
       </v-card>
-      今年の兎原祭は入場予約システムとしてmiraicompassを使用いたします。なお、miraicompassの使い方など、miraicompassにかかわるご質問は実行委員会ではお受けしておりません。あらかじめご了承ください。<br>ご予約の際には、<router-link :to=" { name: 'privacy' } ">プライバシーポリシー</router-link>もご確認ください。<br>入場予約フォームは現在準備中です。4月25日に受付開始します。しばらくお待ちください。
+      今年の兎原祭は入場予約システムとしてmiraicompassを使用いたします。<br>ご予約の際には、<router-link :to=" { name: 'privacy' } ">プライバシーポリシー</router-link>もご確認ください。<br>入場予約フォームは現在準備中です。4月25日に受付開始します。しばらくお待ちください。
       <div class="text-center">
         <v-btn href="#" color="success" large disabled>
           今すぐ予約<v-icon>mdi-pencil</v-icon>
         </v-btn>
       </div>
       <div class="text-h4">予約～入場の流れ</div>
+      説明は順次充実化します。
       <v-stepper vertical flat>
         <v-stepper-step step="1" complete-icon="mdi-numeric-1" complete>miraicompassに登録</v-stepper-step>
         <v-stepper-content step="1">

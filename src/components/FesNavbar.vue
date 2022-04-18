@@ -49,11 +49,10 @@ export default {
       drawer: false,
       links: [
         { icon: "mdi-rabbit", text: "ホーム", route: "/" },
-        { icon: "mdi-widgets", text: "企画一覧・マップ", route: "/programs" },
+        { icon: "mdi-widgets", text: "企画一覧", route: "/programs" },
         { icon: "mdi-account-plus", text: "入場の流れ", route: "/reservation" },
         { icon: "mdi-map", text: "本校へのアクセス", route: "/access" },
         { icon: "mdi-information", text: "兎原祭について", route: "/about" },
-        { icon: "mdi-food", text: "食販", route: "/foods" },
         { icon: "mdi-account-tie-voice", text: "校長・委員長挨拶", route: "/message" },
         { icon: "mdi-cellphone-link", text: "ICT関連", route: "/ict" },
         { icon: "mdi-bullhorn", text: "お知らせ・お願い", route: "/announcements" },
