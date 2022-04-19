@@ -4,20 +4,12 @@
       <div class="text-h3">とげラジ</div>
       <br><br>
       これまで音楽を流すだけであった兎原祭の放送でトークを繰り広げるラジオ企画・その名も とげラジ が帰ってきました！MCがゲストの方と、それぞれ決められたテーマに沿ってトークを繰り広げます。ぜひ、休憩時間や待ち時間にお聞きください！
-      <v-card elevation="2">
-        <v-card-title><v-icon>mdi-note-text</v-icon> 企画説明</v-card-title>
-        <v-card-text><div class="text--primary">
-          ・放送期間：5月n日 nn:nn~nn:nn（予定）<br>
-          ・放送内容：<br>
-          ※企画内容、ゲストは多少変更する可能性があります。
-        </div></v-card-text>
-      </v-card>
       <br>
       <div class="text-h4">タイムテーブル</div>
       <v-tabs color="pink accent-2">
         <v-tabs-slider color="pink lighten-4" />
-        <v-tab>1日目</v-tab>
-        <v-tab>2日目</v-tab>
+        <v-tab>Day 1</v-tab>
+        <v-tab>Day 2</v-tab>
         <v-tab-item>
           <v-expansion-panels focusable>
             <v-expansion-panel v-for="radio in radioDay1" :key="radio.title">
@@ -47,54 +39,69 @@ export default {
     return {
       programs: [
         {
-          title: "nn:nn~　ただいま",
+          title: "08:55~　カウントダウン",
           day: "1",
-          program: "番組の内容",
+          program: "スタートまでカウントダウンします",
         },
         {
-          title: "nn:nn~　絶賛",
+          title: "09:00~09:40　実行委員長のBlack Out",
           day: "1",
-          program: "番組の内容",
+          program: "さぁ一斉に始まりました兎原祭、音楽と兎原祭に関する小話で好調なスタートを演出する実行委員長によるラジオ。",
         },
         {
-          title: "nn:nn~　番組",
+          title: "09:50~10:30　It's ASTime",
           day: "1",
-          program: "番組の内容",
+          program: "謎の科学集団ASTAがお送りするトーク番組。（ASTAの活動やサイエンスショーについて宣伝するかも。）",
         },
         {
-          title: "nn:nn~　内容",
+          title: "10:40~11:40　十大陸漫遊記",
           day: "1",
-          program: "番組の内容",
+          program: "Hiroの音楽ラジオ、トークも抜群！ゲストがいるかも...",
         },
         {
-          title: "nn:nn~　編成中！",
+          title: "12:20~13:00　兎のダンス回",
           day: "1",
-          program: "番組の内容",
+          program: "ゲストに野外ステージ有志ダンス出演者を招いたトークメインのコーナーです！",
         },
         {
-          title: "nn:nn~　ただいま",
-          day: "2",
-          program: "番組の内容",
+          title: "13:10~13:50　ぼーちゃんラジオ",
+          day: "1",
+          program: "Hi, everyone. We are English Speaking Society club! We use only Japanese, so please listen to our radio!",
         },
         {
-          title: "nn:nn~　絶賛",
-          day: "2",
-          program: "番組の内容",
+          title: "14:00~15:00　ちょっとお時間よろしいですか？",
+          day: "1",
+          program: "ベテランラジオMC：CHIKAによるトークラジオのコーナーです。どうぞご期待〜",
         },
         {
-          title: "nn:nn~　番組",
+          title: "09:00~09:40　It's ASTime",
           day: "2",
-          program: "番組の内容",
+          program: "謎の科学集団ASTAがお送りするトーク番組。（ASTAの活動やサイエンスショーについて宣伝するかも。）",
         },
         {
-          title: "nn:nn~　内容",
+          title: "09:50~10:30　？？？(14回生ラジオ）",
           day: "2",
-          program: "番組の内容",
+          program: "14回生がラジオを行います。入学して間もないですが頑張ります。",
         },
         {
-          title: "nn:nn~　編成中！",
+          title: "10:40~11:40　十大陸漫遊記",
           day: "2",
-          program: "番組の内容",
+          program: "Hiroの音楽ラジオ、トークも抜群！ゲストがいるかも...",
+        },
+        {
+          title: "12:20~13:00　部長補佐のCoffee Break",
+          day: "2",
+          program: "なんと、あの先生が中等に帰ってくる！兎原祭一日限りの大復活！！",
+        },
+        {
+          title: "13:10~13:50　ぼーちゃんラジオ",
+          day: "2",
+          program: "Hi, everyone. We are English Speaking Society club! We use only Japanese, so please listen to our radio!",
+        },
+        {
+          title: "14:00~15:00　ちょっとお時間よろしいですか？",
+          day: "2",
+          program: "ベテランラジオMC：CHIKAによるトークラジオのコーナーです。どうぞご期待〜",
         },
       ],
     };
