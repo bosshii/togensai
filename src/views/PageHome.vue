@@ -18,7 +18,7 @@
           <v-carousel cycle hide-delimiter-background show-arrows-on-hover height="auto" style="max-width:500px">
             <v-carousel-item><router-link :to=" { name: 'k1' } "><v-img src="/hometop_k-1.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'home' } "><v-img src="/hometop_bekuss.jpg"></v-img></router-link></v-carousel-item>
-            <v-carousel-item><v-img src="/k-1.png"></v-img></v-carousel-item>
+            <v-carousel-item><router-link :to=" { name: 'home' } "><v-img src="/hometop_boad.jpg"></v-img></router-link></v-carousel-item>
           </v-carousel>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
@@ -27,15 +27,20 @@
               今年の兎原祭では、新型コロナウィルス感染拡大防止のため、入場を<b>完全予約制</b>といたします。<router-link class="text-decoration-none" :to=" { name: 'reservation' } ">入場予約について詳しく見る➪</router-link>
             </div></v-card-text>
           </v-card>
-          <v-card rounded="xl" class="rounded-tl-0"><v-card-title class="text-h6"><v-icon>mdi-lightbulb-on</v-icon>
+          <v-card rounded="xl" class="rounded-tl-0 my-2"><v-card-title class="text-h6"><v-icon color="primary">mdi-lightbulb-on</v-icon>&nbsp;&nbsp;
             <router-link class="text-decoration-none" :to=" { name: 'about' } ">兎原祭とは？</router-link>&nbsp;/&nbsp;<router-link class="text-decoration-none" :to=" { name: 'programs' } ">企画一覧</router-link>
           </v-card-title></v-card>
+          <v-card rounded="xl" class="rounded-tl-0"><v-card-title class="text-h6"><v-icon color="primary">mdi-information-outline</v-icon>&nbsp;&nbsp;お知らせ</v-card-title>
+            <v-card-text style="color:black">
+              あああ
+            </v-card-text>
+          </v-card>
         </v-col>
       </v-row>
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-img src="/pickup_1.jpg" class="white--text" height="auto"></v-img>
             <v-card-actions>
               <div style="color:black">ピックアップリンク</div>
             </v-card-actions>
@@ -43,25 +48,25 @@
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-img src="/pickup_2.jpg" class="white--text" height="auto"></v-img>
             <v-card-actions>
               <div style="color:black">ピックアップリンク</div>
             </v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
-          <v-card>
-            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+          <v-card href="https://www.instagram.com/ku_secondary_kouhou/">
+            <v-img src="/pickup_instagram.png" class="white--text" height="auto"></v-img>
             <v-card-actions>
-              <div style="color:black">ピックアップリンク</div>
+              <div style="color:black">公式インスタ</div>
             </v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
-            <v-img src="http://placehold.jp/400x400.png" class="white--text" height="auto"></v-img>
+            <v-img src="/pickup_survey.png" class="white--text" height="auto"></v-img>
             <v-card-actions>
-              <div style="color:black">ピックアップリンク</div>
+              <div style="color:black">入場者アンケートにご協力を</div>
             </v-card-actions>
           </v-card>
         </v-col>

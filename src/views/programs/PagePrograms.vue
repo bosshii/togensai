@@ -3,7 +3,8 @@
     <v-container class="my-5">
       <div class="text-h3">企画一覧</div>
       <br><br>
-      今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！
+      今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
+      <br><br>
       <div class="text-h4">本部企画</div>
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
@@ -52,7 +53,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4">生徒会組織企画</div>
+      <div class="text-h4">部活・生徒会組織</div>
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
