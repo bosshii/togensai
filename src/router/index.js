@@ -74,6 +74,11 @@ const routes = [
     name: "privacy",
     component: () => import("@/views/PagePrivacy"),
   },
+  {
+    path: "/survey",
+    name: "survey",
+    component: () => import("@/views/PageSurvey"),
+  },
   { path: "/notices",
     redirect: "/announcements",
   },

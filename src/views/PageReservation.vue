@@ -11,7 +11,7 @@
       </v-card>
       ご予約の際には、<router-link :to=" { name: 'privacy' } ">プライバシーポリシー</router-link>もご確認ください。<br>入場予約フォームは現在準備中です。4月25日に受付開始します。しばらくお待ちください。
       <br><br>
-      <div class="text-h4">小学生とその保護者様</div>
+      <div class="text-h4">在校生保護者(2日目)・小学生とその保護者</div>
       本校への入学を検討されている小学生とその保護者様には入場予約システムとしてmiraicompassを使用いたします。
       <div class="text-center">
         <v-btn href="https://mirai-compass.net/usr/kobeussj/event/evtIndex.jsf" target="_blank" color="success" large>
@@ -37,16 +37,16 @@
         </v-stepper-content>
       </v-stepper>
       <br><br>
-      <div class="text-h4">生徒の関係者(保護者以外)・一般の方</div>
-      保護者を除く生徒の関係者と一般の方はGoogleフォームから予約していただきます。
+      <div class="text-h4">一般の方</div>
+      一般の方はGoogleフォームから予約していただきます。
       <div class="text-center">
         <v-btn href="#" color="success" large disabled>
           今すぐ予約<v-icon>mdi-pencil</v-icon>
         </v-btn>
       </div>
       <br><br>
-      <div class="text-h4">生徒の保護者</div>
-      保護者の方
+      <div class="text-h4">在校生保護者(1日目)</div>
+      別途配布する紙を当日お持ちいただき、受け付けで係員にご提示ください。
     </v-container>
   </div>
 </template>
