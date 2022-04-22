@@ -21,7 +21,7 @@
       <v-row class="d-flex column" align="center">
         <v-col class="d-flex justify-center" cols="7">
           <v-card elevation="2" outlined shaped>
-            <v-card-title>実行委員長メッセージ</v-card-title>
+            <v-card-title>実行委員長挨拶</v-card-title>
             <v-card-text><div class="text-body-1" style="color:black">
               ああああああああああああああああああああああああああああああああ。ああああああああああああああああああああああああああああ。あああああああああああああああ。<br>ああああああああああああああああああ。ああああああああああああああああ。<br>あああ。
             </div></v-card-text>

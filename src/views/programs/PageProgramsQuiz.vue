@@ -1,5 +1,5 @@
 <template>
-  <div class="programs">
+  <div class="quiz">
     <v-container class="my-5">
       <div class="text-h3">クイズ企画</div>
       <br><br>
@@ -8,7 +8,7 @@
         <v-card-title><v-icon>mdi-note-text</v-icon> 企画説明</v-card-title>
         <v-card-text><div class="text--primary">
           ・決勝戦日時：5/21（土）14:20-15:00（予定）<br>
-          ・決勝戦場所：屋外ステージ（雨天時はグラウンド側校舎二階4年1組教室で実施します）<br>
+          ・決勝戦場所：屋外ステージ（雨天時はグラウンド側校舎二階施設整備の部屋で実施します）<br>
           ・予選に参加可能なのは本校生徒のみです。一般の方は決勝戦で予選進出者と一緒にクイズに答えてお楽しみください！！
         </div></v-card-text>
       </v-card>

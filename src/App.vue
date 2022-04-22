@@ -51,7 +51,7 @@
                 <v-icon slot="appendIcon" color="white">$expand</v-icon>
                 <template v-slot:activator>
                     <v-list-item-content class="white--text">
-                      <v-list-item-title class="white--text">
+                      <v-list-item-title>
                         {{ nav_list.name }}
                       </v-list-item-title>
                     </v-list-item-content>
@@ -61,9 +61,12 @@
                     :key="list.name"
                     :to="list.link"
                 >
-                <v-list-item-title>
-                  {{ list.name }}
-                </v-list-item-title>
+                  <v-list-item-title class="white--text">
+                    {{ list.name }}
+                  </v-list-item-title>
+                  <v-list-item-icon>
+                    <v-icon v-text="list.icon" color="white"></v-icon>
+                  </v-list-item-icon>
                 </v-list-item>
             </v-list-group>
         </template>
@@ -117,11 +120,15 @@ export default {
               link: '/programs',
               lists:[
                 {
-                  name:'企画一覧',link:'/programs/list'
+                  name:'企画一覧',link:'/programs/list',icon:'mdi-magnify'
                 },
                 {
-                  name:'とげラジ',link:'/programs/radio'
+                  name:'とげラジ',link:'/programs/radio',icon:'mdi-radio'
+                },
+                {
+                  name:'K-1グランプリ',link:'/programs/k-1',icon:'mdi-crown'
                 }
+                
               ]
             },
             {

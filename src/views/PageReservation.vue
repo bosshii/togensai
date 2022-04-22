@@ -15,7 +15,7 @@
       別途生徒に配布するプリントを当日お持ちいただき、受け付けで係員にご提示ください。
       <br><br>
       <div class="text-h4">在校生保護者(2日目)・本校教育活動に関心をお持ちの方</div>
-      本校への入学を検討されている小学生とその保護者様には入場予約システムとしてmiraicompassを使用いたします。
+      本校教育活動に関心をお持ちの方は、入場予約システムmiraicompassを通じて予約していただきます。
       <div class="text-center">
         <v-btn href="https://mirai-compass.net/usr/kobeussj/event/evtIndex.jsf" target="_blank" color="success" large>
           今すぐ予約<v-icon>mdi-pencil</v-icon>
