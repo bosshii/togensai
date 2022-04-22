@@ -13,7 +13,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header><b>クイズ企画</b>by TFPT @ みんはや＆対面<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>クイズ企画</b><br>TFPT @ みんはや＆対面</span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">クイズ企画がパワーアップ！神大附属のクイズ王は誰だ！？<router-link :to=" { name: 'quiz' } ">詳細はこちら！</router-link></div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -26,7 +26,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header><b>とげラジ</b><br>by 愉快なMCたち @ 放送<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>とげラジ</b><br><router-link class="text-decoration-none" :to=" { name: 'radio' } ">詳細はこちら</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">昨年好評だったラジオ企画を今年も放送！<router-link :to=" { name: 'radio' } ">詳細はこちら！</router-link></div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -44,7 +44,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header><b>{{ program.title }}</b><br>by {{ program.by }} @ {{ program.at }}<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>{{ program.title }}</b><br>{{ program.by }} @ {{ program.at }}</span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">{{ program.desc }}</div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -61,7 +61,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header>ASTA<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>ASTA</b><br><router-link class="text-decoration-none" :to=" { name: 'asta' } ">詳細はこちら！</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">ASTAは各班がさまざまな展示・製作を予定しています！<router-link :to=" { name: 'asta' } ">【詳細はこちら！】</router-link></div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -74,7 +74,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header><b>{{ program.title }}</b><br>by {{ program.by }} @ {{ program.at }}<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                 <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>{{ program.title }}</b><br>{{ program.by }} @ {{ program.at }}</span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">{{ program.desc }}</div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -91,7 +91,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header><b>{{ program.title }}</b><br>by {{ program.by }} @ {{ program.at }}<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>{{ program.title }}</b><br>{{ program.by }} @ {{ program.at }}</span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">{{ program.desc }}</div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -108,7 +108,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header><b>{{ program.title }}</b><br>by {{ program.by }} @ {{ program.at }}<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>{{ program.title }}</b><br>{{ program.by }} @ {{ program.at }}</span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">{{ program.desc }}</div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>

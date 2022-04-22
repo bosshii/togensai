@@ -19,7 +19,12 @@
       </v-card>
     <br>
     <div class="text-h4">生徒の皆さんへ</div>
-      <p>情報機器は節度をもって利用しましょう。歩きスマホは危険です。<router-link :to=" { name: 'ict' } ">情報委員会からのお知らせ</router-link>もご確認ください。</p>
+      <p>情報機器は節度をもって利用しましょう。歩きスマホは危険です。
+    <div class="text-h5">情報委員会から</div>
+      <v-card elevation="2" loading="pink" loader-height="3" width="50%">
+        <v-card-title>現在執筆中</v-card-title>
+        <v-card-text>現在作成中です。しばらくお待ちください。</v-card-text>
+      </v-card>
     </v-container>
   </div>
 </template>

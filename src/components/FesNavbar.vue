@@ -1,66 +1,138 @@
 <template>
-  <nav @click="drawer = false">
-    <v-app-bar class="grey lighten-5" app elevate-on-scroll>
-      <v-app-bar-nav-icon
-        @click.stop="drawer = !drawer"
-      ></v-app-bar-nav-icon>
-      <v-toolbar-title class="text-uppercase black--text">
-        <span>第10回兎原祭</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn depressed color="pink accent-2" :to="{name: 'reservation'}">
-        <span style="color:white">入場予約<v-icon right>mdi-account-plus</v-icon></span>
-      </v-btn>
+  <v-app>
+  <v-navigation-drawer app v-model="drawer" clipped >
+    <v-container>
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title class="title grey--text text--darken-2">
+            Navigation lists
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+      <v-divider></v-divider>
+
+<v-list nav dense>
+    <template v-for="nav_list in nav_lists">
+        <v-list-item
+            v-if="!nav_list.lists" 
+            :to="nav_list.link"
+            :key="nav_list.name"
+              @click="menu_close"
+        >
+            <v-list-item-icon>
+              <v-icon>{{ nav_list.icon }}</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>
+                {{ nav_list.name }}
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-group
+            v-else
+            no-action
+            :prepend-icon="nav_list.icon"
+            :key="nav_list.name"
+            v-model="nav_list.active"
+        >
+            <template v-slot:activator>
+                <v-list-item-content>
+                  <v-list-item-title>
+                    {{ nav_list.name }}
+                  </v-list-item-title>
+                </v-list-item-content>
+            </template>
+            <v-list-item
+                v-for="list in nav_list.lists"
+                :key="list.name"
+                :to="list.link"
+            >
+            <v-list-item-title>
+              {{ list.name }}
+            </v-list-item-title>
+            </v-list-item>
+        </v-list-group>
+    </template>
+</v-list>
+
+    </v-container>
+  </v-navigation-drawer>
+    <v-app-bar color="primary" dark app clipped-left>
+      <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
+      <v-toolbar-title>Vuetify</v-toolbar-title>
+
     </v-app-bar>
 
-    <v-navigation-drawer app color="pink accent-2" v-model="drawer">
-      <v-row class="d-flex flex-column" align="center">
-        <v-col class="mt-5 d-flex flex-column" align="center">
-          <router-link :to="{name: 'home'}"><v-img max-width="150" src="@/assets/feslogo.png" class="ma-3 align-self-center" size="100"></v-img></router-link>
-        </v-col>
-      </v-row>
-      <v-list rounded>
-        <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
-          <v-list-item-action>
-            <v-icon class="white--text">{{ link.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title class="white--text">{{ link.text }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-        <v-divider></v-divider>
-        <v-list-item :to="{name: 'privacy'}">
-          <v-list-item-action>
-            <v-icon class="white--text">mdi-lock</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title class="white--text">プライバシー</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-  </nav>
+    <v-footer color="primary" dark app>
+      Vuetify
+    </v-footer>
+  </v-app>
 </template>
+
 
 <script>
 export default {
-  data() {
-    return {
-      drawer: false,
-      links: [
-        { icon: "mdi-rabbit", text: "ホーム", route: "/" },
-        { icon: "mdi-information", text: "兎原祭について", route: "/about" },
-        { icon: "mdi-account-plus", text: "入場の流れ", route: "/reservation" },
-        { icon: "mdi-map", text: "本校へのアクセス", route: "/access" },
-        { icon: "mdi-account-tie-voice", text: "校長・委員長挨拶", route: "/message" },
-        { icon: "mdi-widgets", text: "企画一覧", route: "/programs" },
-        { icon: "mdi-bullhorn", text: "お知らせ・お願い", route: "/announcements" },
-        { icon: "mdi-cellphone-link", text: "ICT関連", route: "/ict" },
-        
-      ],
-    };
-  },
-};
+  methods:{
+          menu_close(){
+            this.nav_lists.forEach( nav_list => nav_list.active = false)
+          }
+        },
+  data(){
+    return{
+          drawer: false,
+          nav_lists:[
+            {
+              name: 'ホーム',
+              icon: 'mdi-rabbit',
+              link: '/'
+            },
+            {
+              name: '兎原祭について',
+              icon: 'mdi-information',
+              link: '/about'
+            },
+            {
+              name: '入場の流れ',
+              icon: 'mdi-account-plus',
+              link: '/reservation'
+            },
+            {
+              name: '本校へのアクセス',
+              icon: 'mdi-map',
+              link: '/access'
+            },
+            {
+              name: '校長・委員長挨拶',
+              icon: 'mdi-account-tie-voice',
+              link: '/message'
+            },
+            {
+              name: '企画',
+              icon: 'mdi-widgets',
+              active: false,
+              link: '',
+              lists:[
+                {
+                  name:'企画一覧',link:'/programs'
+                },
+                {
+                  name:'とげラジ',link:'/programs/radio'
+                }
+              ]
+            },
+            {
+              name: 'お知らせ・お願い',
+              icon: 'mdi-bullhorn',
+              link: '/announcements'
+            },
+            {
+              name: 'このサイトについて',
+              icon: 'mdi-cellphone-link',
+              link: '/ict'
+            },
+          ]
+    }
+  }
+}
 </script>
-
 <style></style>
