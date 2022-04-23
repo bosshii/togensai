@@ -4,11 +4,7 @@
       <div class="text-h3">ASTA</div>
       <br><br>
       <v-row>
-<<<<<<< HEAD
         <v-col cols="12" xs="10" sm="10" md="4" lg="4" xl="4" align="center"><v-img src="/images/asta.png" max-width="300px"></v-img></v-col>
-=======
-        <v-col cols="12" xs="10" sm="10" md="4" lg="4" xl="4" align="center"><v-img src="/asta.png" max-width="300px"></v-img></v-col>
->>>>>>> refs/remotes/origin/master
         <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8">ASTAとは、一人でも多くの人に理系教科の楽しさを知ってもらい、他の人との交流を通じて、より深い理解を得るということを目的に日々活動するグループです。兎原祭では各班がさまざまな展示・製作を予定しています！</v-col>
       </v-row>
       <br><br>

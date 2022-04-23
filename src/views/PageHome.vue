@@ -16,17 +16,10 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <v-carousel cycle hide-delimiter-background show-arrows-on-hover height="auto" style="max-width:500px">
-<<<<<<< HEAD
             <v-carousel-item><router-link :to=" { name: 'programs' } "><v-img src="/images/hometop_waittime.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'radio' } "><v-img src="/images/hometop_radio.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'k1' } "><v-img src="/images/hometop_k-1.png"></v-img></router-link></v-carousel-item>
             </v-carousel>
-=======
-            <v-carousel-item><router-link :to=" { name: 'k1' } "><v-img src="/hometop_k-1.png"></v-img></router-link></v-carousel-item>
-            <v-carousel-item><router-link :to=" { name: 'home' } "><v-img src="/hometop_bekuss.jpg"></v-img></router-link></v-carousel-item>
-            <v-carousel-item><router-link :to=" { name: 'home' } "><v-img src="/hometop_boad.jpg"></v-img></router-link></v-carousel-item>
-          </v-carousel>
->>>>>>> refs/remotes/origin/master
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
           <v-card elevation="2" color="pink lighten-4" loading tile>
@@ -63,11 +56,7 @@
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card v-ripple><router-link class="text-decoration-none" :to=" { name: 'programs' } ">
-<<<<<<< HEAD
             <v-img src="/images/pickup_1.jpg" class="white--text" height="auto"></v-img>
-=======
-            <v-img src="/pickup_1.jpg" class="white--text" height="auto"></v-img>
->>>>>>> refs/remotes/origin/master
             <v-card-actions>
               <div style="color:black">企画一覧</div>
             </v-card-actions>
@@ -75,11 +64,7 @@
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card v-ripple><router-link class="text-decoration-none" :to=" { name: 'about' } ">
-<<<<<<< HEAD
             <v-img src="/images/pickup_2.jpg" class="white--text" height="auto"></v-img>
-=======
-            <v-img src="/pickup_2.jpg" class="white--text" height="auto"></v-img>
->>>>>>> refs/remotes/origin/master
             <v-card-actions>
               <div style="color:black">兎原祭について</div>
             </v-card-actions>
@@ -87,11 +72,7 @@
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card href="https://www.instagram.com/ku_secondary_kouhou/">
-<<<<<<< HEAD
             <v-img src="/images/pickup_instagram.png" class="white--text" height="auto"></v-img>
-=======
-            <v-img src="/pickup_instagram.png" class="white--text" height="auto"></v-img>
->>>>>>> refs/remotes/origin/master
             <v-card-actions>
               <div style="color:black">公式インスタ</div>
             </v-card-actions>
@@ -99,15 +80,9 @@
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card v-ripple><router-link class="text-decoration-none" :to=" { name: 'survey' } ">
-<<<<<<< HEAD
             <v-img src="/images/pickup_survey.png" class="white--text" height="auto"></v-img>
             <v-card-actions>
               <div style="color:black">来場者アンケート</div>
-=======
-            <v-img src="/pickup_survey.png" class="white--text" height="auto"></v-img>
-            <v-card-actions>
-              <div style="color:black">アンケートにご協力を</div>
->>>>>>> refs/remotes/origin/master
             </v-card-actions>
           </router-link></v-card>
         </v-col>
@@ -150,11 +125,7 @@ export default {
 }
 */
 .home-content {
-<<<<<<< HEAD
   background: url("/public/images/home.png");
-=======
-  background: url("/public/home.png");
->>>>>>> refs/remotes/origin/master
   background-size: cover;
   background-position: center center;
   width: 100%;

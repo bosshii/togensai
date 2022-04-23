@@ -28,11 +28,7 @@
           </v-card>
         </v-col>
         <v-col class="d-flex justify-center" align-self="start">
-<<<<<<< HEAD
           <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="/images/leader.png" alt="実行委員長"></v-avatar>
-=======
-          <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="/unknown.png" alt="実行委員長"></v-avatar>
->>>>>>> refs/remotes/origin/master
         </v-col>
       </v-row>
     </v-container>

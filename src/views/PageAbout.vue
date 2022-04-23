@@ -20,7 +20,6 @@
       <br><br>
       <div class="text-h4">とげたん</div>
       <v-row>
-<<<<<<< HEAD
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4" align="center"><v-img src="/images/togetan.png" max-width="200px"></v-img></v-col>
         <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8">マスコットキャラクター「とげたん」は兎をモチーフにしたオフィシャルキャラクターです。生徒が発案し、兎原祭のみならず様々な場所やイベントで活躍しています。<br>兎原祭中に登場するかも！？</v-col>
       </v-row>
@@ -34,11 +33,6 @@
           </v-carousel>
         </v-col>
       </v-row>
-=======
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4" align="center"><v-img src="/togetan.png" max-width="200px"></v-img></v-col>
-        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8">マスコットキャラクター「とげたん」は兎をモチーフにしたオフィシャルキャラクターです。生徒が発案し、兎原祭のみならず様々な場所やイベントで活躍しています。<br>兎原祭中に登場するかも！？</v-col>
-      </v-row>
->>>>>>> refs/remotes/origin/master
       <br>
     </v-container>
   </div>

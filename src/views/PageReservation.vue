@@ -28,11 +28,7 @@
         </v-stepper-content>
         <v-stepper-step step="2" complete-icon="mdi-numeric-2" complete>予約</v-stepper-step>
         <v-stepper-content step="1">
-<<<<<<< HEAD
           情報を入力し、申し込みを完了させます。<br>申込時に配信される「申込完了メール」もご確認ください。<br>なお、予約は勝手ながら<b>先着順</b>とさせていただきますので、予めご了承ください。
-=======
-          情報を入力し、申し込みを完了させます。<br>申込時に配信される「申込完了メール」もご確認ください。<br>なお、入場者は勝手ながら<b>先着順</b>とさせていただきますので、ご了承ください。
->>>>>>> refs/remotes/origin/master
         </v-stepper-content>
         <v-stepper-step step="3" complete-icon="mdi-numeric-3" complete>入場</v-stepper-step>
         <v-stepper-content step="1">
