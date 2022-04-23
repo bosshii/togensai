@@ -1,5 +1,6 @@
 <template>
   <v-app>
+<<<<<<< HEAD
     <v-app-bar class="grey lighten-5" app dense elevate-on-scroll>
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
@@ -17,6 +18,23 @@
         <span style="color:white">入場予約<v-icon>mdi-account-plus</v-icon></span>
       </v-btn></div>
       </template>
+=======
+    <v-app-bar class="grey lighten-5" app elevate-on-scroll>
+      <v-app-bar-nav-icon
+        @click.stop="drawer = !drawer"
+      ></v-app-bar-nav-icon>
+      <v-toolbar-title class="text-uppercase black--text">
+        <span>第10回兎原祭</span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn depressed outlined color="pink accent-2" :to="{name: 'radio'}">
+        <span>ラジオお便り募集<v-icon right>mdi-note-edit-outline</v-icon></span>
+      </v-btn>
+      &nbsp;
+      <v-btn depressed color="pink accent-2" :to="{name: 'reservation'}">
+        <span style="color:white">入場予約<v-icon right>mdi-account-plus</v-icon></span>
+      </v-btn>
+>>>>>>> refs/remotes/origin/master
     </v-app-bar>
     <v-navigation-drawer app v-model="drawer" color="pink accent-2" >
       <v-row class="d-flex flex-column" align="center">
@@ -91,7 +109,13 @@
       <router-view />
     </v-main>
     <FesFooter />
+<<<<<<< HEAD
   </v-app>
+=======
+
+  </v-app>
+
+>>>>>>> refs/remotes/origin/master
 </template>
 <script>
 export default {
@@ -174,9 +198,14 @@ export default {
   padding: 0rem 0rem 0rem 2rem;
   border-left: 4px solid #EC407A;
 }
+<<<<<<< HEAD
 .v-toolbar__extension {
   display: grid;
   justify-content: right;
   padding: 0px 16px 0px 50px!important;
 }
 </style>
+=======
+</style>
+
+>>>>>>> refs/remotes/origin/master

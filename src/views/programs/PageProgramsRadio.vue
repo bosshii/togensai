@@ -5,16 +5,23 @@
       <br><br>
       これまで音楽を流すだけであった兎原祭の放送でトークを繰り広げるラジオ企画・その名も とげラジ が帰ってきました！MCがゲストの方と、それぞれ決められたテーマに沿ってトークを繰り広げます。ぜひ、休憩時間や待ち時間にお聞きください！
       <br>
+<<<<<<< HEAD
       <div class="text-h6 text-decoration-underline">お便り受け付けます！</div>
       番組のうち<v-btn :ripple="false" color="#ff0707" depressed rounded small class="white--text">お便り</v-btn>のあるものはお便りや投票を受け付けます！お気軽に書いてみましょう！<br>
       <div class="text-h4">タイムテーブル</div>
       <v-tabs color="pink accent-2">
         <v-tabs-slider color="pink" />
+=======
+      <div class="text-h4">タイムテーブル</div>
+      <v-tabs color="pink accent-2">
+        <v-tabs-slider color="pink lighten-4" />
+>>>>>>> refs/remotes/origin/master
         <v-tab>Day 1</v-tab>
         <v-tab>Day 2</v-tab>
         <v-tab-item>
           <v-expansion-panels focusable>
             <v-expansion-panel v-for="radio in radioDay1" :key="radio.title">
+<<<<<<< HEAD
               <v-expansion-panel-header style="padding:0px 5px;">{{ radio.title }}<template v-slot:actions><v-btn v-if="radio.form == 'on'" :ripple="false" color="#ff0707" depressed rounded small class="white--text">お便り</v-btn><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
               <v-expansion-panel-content class="black--text">
                 <div class="mx-n3">
@@ -26,12 +33,17 @@
                   </v-row>
                 </div>
               </v-expansion-panel-content>
+=======
+              <v-expansion-panel-header>{{ radio.title }}<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+              <v-expansion-panel-content class="px-4 grey--text"><div style="color:black">{{ radio.program }}</div></v-expansion-panel-content>
+>>>>>>> refs/remotes/origin/master
             </v-expansion-panel>
           </v-expansion-panels>
         </v-tab-item>
         <v-tab-item>
           <v-expansion-panels focusable>
             <v-expansion-panel v-for="radio in radioDay2" :key="radio.title">
+<<<<<<< HEAD
               <v-expansion-panel-header style="padding:0px 5px;">{{ radio.title }}<template v-slot:actions><v-btn v-if="radio.form == 'on'" :ripple="false" color="#ff0707" depressed rounded small class="white--text">お便り</v-btn><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
               <v-expansion-panel-content class="black--text">
                 <div class="mx-n3">
@@ -43,10 +55,20 @@
                   </v-row>
                 </div>
               </v-expansion-panel-content>
+=======
+              <v-expansion-panel-header>{{ radio.title }}<template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+              <v-expansion-panel-content class="px-4 grey--text"><div style="color:black">{{ radio.program }}</div></v-expansion-panel-content>
+>>>>>>> refs/remotes/origin/master
             </v-expansion-panel>
           </v-expansion-panels>
         </v-tab-item>
       </v-tabs>
+<<<<<<< HEAD
+=======
+      <br>
+      <div class="text-h4">お便り＆投票</div>
+      番組へのお便りや投票を随時受け付ける予定です！お楽しみに！
+>>>>>>> refs/remotes/origin/master
     </v-container>
   </div>
 </template>
@@ -58,6 +80,7 @@ export default {
         {
           title: "08:55~　カウントダウン",
           day: "1",
+<<<<<<< HEAD
           program: "スタートまでカウントダウンします!",
         },
         {
@@ -66,6 +89,14 @@ export default {
           program: "さぁ一斉に始まりました兎原祭、音楽と兎原祭に関する小話で好調なスタートを演出する三役によるラジオ。",
           form: "on",
           formlink: "https://docs.google.com/forms/d/e/1FAIpQLSdH-A_rEbCnF87mFG4ldc1vm7ITotCuAh3ane_hHfGZZpGH1Q/viewform?embedded=true"
+=======
+          program: "スタートまでカウントダウンします",
+        },
+        {
+          title: "09:00~09:40　実行委員長のBlack Out",
+          day: "1",
+          program: "さぁ一斉に始まりました兎原祭、音楽と兎原祭に関する小話で好調なスタートを演出する実行委員長によるラジオ。",
+>>>>>>> refs/remotes/origin/master
         },
         {
           title: "09:50~10:30　It's ASTime",
@@ -76,8 +107,11 @@ export default {
           title: "10:40~11:40　十大陸漫遊記",
           day: "1",
           program: "Hiroの音楽ラジオ、トークも抜群！ゲストがいるかも...",
+<<<<<<< HEAD
           form :"on",
           formlink: "https://docs.google.com/forms/d/e/1FAIpQLSddY3pxPFO_0QDGzu-ZGFDhLiS7l3aFc9uFEgbm-MNP22ynmg/viewform?embedded=true"
+=======
+>>>>>>> refs/remotes/origin/master
         },
         {
           title: "12:20~13:00　兎のダンス回",
@@ -108,8 +142,11 @@ export default {
           title: "10:40~11:40　十大陸漫遊記",
           day: "2",
           program: "Hiroの音楽ラジオ、トークも抜群！ゲストがいるかも...",
+<<<<<<< HEAD
           form :"on",
           formlink: "https://docs.google.com/forms/d/e/1FAIpQLSddY3pxPFO_0QDGzu-ZGFDhLiS7l3aFc9uFEgbm-MNP22ynmg/viewform?embedded=true"
+=======
+>>>>>>> refs/remotes/origin/master
         },
         {
           title: "12:20~13:00　部長補佐のCoffee Break",
