@@ -8,7 +8,7 @@
       今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
       <br><br>
       <div class="text-h4" id="time">企画待ち時間</div>
-      待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a>
+      待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a><br>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px" frameborder="0" loading="lazy" class="elevation-3 rounded-lg"></iframe>
@@ -46,7 +46,7 @@
       </v-row>
       <br>
       <div class="text-h4" id="homeroom">学年企画</div>
-      ＜＜学年企画のNo1を決めよう！<router-link :to=" { name: 'k1' } ">K-1グランプリ開催！</router-link>＞＞
+      <v-chip color="red" class="white--text">NEW</v-chip>&nbsp;学年企画のNo1を決めよう！<router-link :to=" { name: 'k1' } ">K-1グランプリ開催！</router-link>
       <v-row dense>
         <v-col v-for="program in prgHomeroom" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>

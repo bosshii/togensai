@@ -5,7 +5,7 @@
         @click.stop="drawer = !drawer"
       ></v-app-bar-nav-icon>
       <v-toolbar-title class="text-uppercase black--text mt-1">
-        <span><img src="/wordmark.svg" alt="第10回兎原祭" width="80%"></span>
+        <span><router-link :to=" { name: 'home' } "><img src="/wordmark.svg" alt="第10回兎原祭" width="80%"></router-link></span>
       </v-toolbar-title>
       <template v-slot:extension>
       <div class="topbtn">
