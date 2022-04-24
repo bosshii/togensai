@@ -24,11 +24,11 @@
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
           <v-card elevation="2" color="pink lighten-4" loading tile>
             <v-card-text><div class="text-body-1" style="color:black">
-              今年の兎原祭では、新型コロナウィルス感染拡大防止のため、入場を<b>完全予約制</b>といたします。<router-link class="text-decoration-none" :to=" { name: 'reservation' } ">入場予約について詳しく見る➪</router-link>
+              今年の兎原祭では、新型コロナウィルス感染拡大防止のため、入場を<b>完全予約制</b>といたします。<router-link :to=" { name: 'reservation' } ">入場予約について詳しく見る➪</router-link>
             </div></v-card-text>
           </v-card>
           <v-card rounded="xl" class="rounded-tl-0 my-2"><v-card-title class="text-h6"><v-icon color="primary">mdi-lightbulb-on</v-icon>&nbsp;&nbsp;
-            <router-link class="text-decoration-none" :to=" { name: 'about' } ">兎原祭とは？</router-link>&nbsp;/&nbsp;<router-link class="text-decoration-none" :to=" { name: 'programs' } ">企画一覧</router-link>
+            <router-link :to=" { name: 'about' } ">兎原祭とは？</router-link>&nbsp;/&nbsp;<router-link :to=" { name: 'programs' } ">企画一覧</router-link>
           </v-card-title></v-card>
           <v-card rounded="xl" class="rounded-tl-0"><v-card-title class="text-h6"><v-icon color="primary">mdi-information-outline</v-icon>&nbsp;&nbsp;お知らせ</v-card-title>
             <v-card-text style="color:black">
@@ -55,7 +55,7 @@
       </v-row>
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
-          <v-card v-ripple><router-link class="text-decoration-none" :to=" { name: 'programs' } ">
+          <v-card v-ripple><router-link :to=" { name: 'programs' } ">
             <v-img src="/images/pickup_1.jpg" class="white--text" height="auto"></v-img>
             <v-card-actions>
               <div style="color:black">企画一覧</div>
@@ -63,7 +63,7 @@
           </router-link></v-card>
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
-          <v-card v-ripple><router-link class="text-decoration-none" :to=" { name: 'about' } ">
+          <v-card v-ripple><router-link :to=" { name: 'about' } ">
             <v-img src="/images/pickup_2.jpg" class="white--text" height="auto"></v-img>
             <v-card-actions>
               <div style="color:black">兎原祭について</div>
@@ -79,7 +79,7 @@
           </v-card>
         </v-col>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
-          <v-card v-ripple><router-link class="text-decoration-none" :to=" { name: 'survey' } ">
+          <v-card v-ripple><router-link :to=" { name: 'survey' } ">
             <v-img src="/images/pickup_survey.png" class="white--text" height="auto"></v-img>
             <v-card-actions>
               <div style="color:black">来場者アンケート</div>

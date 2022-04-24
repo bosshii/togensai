@@ -3,17 +3,19 @@
     <v-container class="my-5">
       <div class="text-h3">企画一覧</div>
       <br><br>
-      <a href="#time">time</a><a href="#teac">teac</a>今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
+      <b>目次:</b>&nbsp;<a href="#time">タイムテーブル</a>・<a href="#tfpt">本部企画</a>・<a href="#homeroom">学年企画</a>・<a href="#club">部活動&生徒会</a>・<a href="#teacher">教員主催企画</a>
+      <br>
+      今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
       <br><br>
       <div class="text-h4" id="time">企画待ち時間</div>
-      待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" taget="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank" class="text-decoration-none">更新する</a>
+      待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px" frameborder="0" loading="lazy" class="elevation-3 rounded-lg"></iframe>
         </v-col>
       </v-row>
       <br><br>
-      <div class="text-h4">本部企画</div>
+      <div class="text-h4" id="tfpt">本部企画</div>
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
@@ -21,7 +23,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>クイズ企画</b><br>みんはや&対面 <router-link class="text-decoration-none" :to=" { name: 'quiz' } ">詳細はこちら</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>クイズ大会</b><br>みんはや&対面 <router-link :to=" { name: 'quiz' } ">詳細はこちら</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">クイズ企画がパワーアップ！神大附属のクイズ王は誰だ！？<router-link :to=" { name: 'quiz' } ">詳細はこちら！</router-link></div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -34,7 +36,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>とげラジ</b><br><router-link class="text-decoration-none" :to=" { name: 'radio' } ">詳細はこちら</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>とげラジ</b><br><router-link :to=" { name: 'radio' } ">詳細はこちら</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">昨年好評だったラジオ企画を今年も放送！<router-link :to=" { name: 'radio' } ">詳細はこちら！</router-link></div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -43,7 +45,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4">学年企画</div>
+      <div class="text-h4" id="homeroom">学年企画</div>
       ＜＜学年企画のNo1を決めよう！<router-link :to=" { name: 'k1' } ">K-1グランプリ開催！</router-link>＞＞
       <v-row dense>
         <v-col v-for="program in prgHomeroom" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
@@ -61,7 +63,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4">部活・生徒会組織</div>
+      <div class="text-h4" id="club">部活・生徒会組織</div>
       <v-row dense>
         <v-col cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
@@ -69,7 +71,7 @@
             <v-card-actions class="mx-n2">
               <v-expansion-panels flat accordion>
                 <v-expansion-panel>
-                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>ASTA</b><br><router-link class="text-decoration-none" :to=" { name: 'asta' } ">詳細はこちら！</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
+                  <v-expansion-panel-header style="width:100%;padding:10px 5px;"><span><b>ASTA</b><br><router-link :to=" { name: 'asta' } ">詳細はこちら！</router-link></span><template v-slot:actions><v-icon color="pink accent-2">$expand</v-icon></template></v-expansion-panel-header>
                   <v-expansion-panel-content class="px-4 mx-n7"><div style="color:black">ASTAは各班がさまざまな展示・製作を予定しています！<router-link :to=" { name: 'asta' } ">【詳細はこちら！】</router-link></div></v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
@@ -91,7 +93,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4">有志企画</div>
+      <div class="text-h4" id="team">有志企画</div>
       <v-row dense>
         <v-col v-for="program in prgTeam" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
@@ -108,7 +110,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4" id="teac">教員主催企画</div>
+      <div class="text-h4" id="teacher">教員主催企画</div>
       <v-row dense>
         <v-col v-for="program in prgTeacher" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>

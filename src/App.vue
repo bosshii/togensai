@@ -167,6 +167,9 @@ export default {
 }
 </script>
 <style>
+a {
+  text-decoration:none;
+}
 .text-h3 {
   border-bottom: solid 3px #E91E63;
 }

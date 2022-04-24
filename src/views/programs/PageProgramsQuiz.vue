@@ -1,7 +1,7 @@
 <template>
   <div class="quiz">
     <v-container class="my-5">
-      <div class="text-h3">クイズ企画</div>
+      <div class="text-h3">クイズ大会</div>
       <br><br>
       第十回兎原祭もクイズ大会を実施します！今年は去年よりパワーアップ！一日目はアプリ「みんなで早押しクイズ」で予選を実施、予選上位者は二日目に屋外ステージにて対面で対決します！
       <v-card elevation="2">
