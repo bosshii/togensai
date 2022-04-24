@@ -3,9 +3,9 @@
     <v-container class="my-5">
       <div class="text-h3">企画一覧</div>
       <br><br>
-      今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
+      <a href="#time">time</a><a href="#teac">teac</a>今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
       <br><br>
-      <div class="text-h4">企画待ち時間</div>
+      <div class="text-h4" id="time">企画待ち時間</div>
       待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" taget="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank" class="text-decoration-none">更新する</a>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
@@ -108,7 +108,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4">教員主催企画</div>
+      <div class="text-h4" id="teac">教員主催企画</div>
       <v-row dense>
         <v-col v-for="program in prgTeacher" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
@@ -190,4 +190,9 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+#anchor{
+  padding-top:100px;
+  margin-top:-100px;
+}
+</style>
