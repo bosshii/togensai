@@ -1,19 +1,23 @@
 <template>
   <div class="programs">
     <v-container class="my-5">
-      <div class="text-h3">企画一覧</div>
+      <div class="text-h3">企画</div>
       <br><br>
-      <b>目次:</b>&nbsp;<a href="#time">タイムテーブル</a>・<a href="#tfpt">本部企画</a>・<a href="#homeroom">学年企画</a>・<a href="#club">部活動&生徒会</a>・<a href="#teacher">教員主催企画</a>
+      <b>目次:</b>&nbsp;<a href="#waittime">待ち時間</a>・<a href="#tfpt">本部企画</a>・<a href="#homeroom">学年企画</a>・<a href="#club">部活動&生徒会</a>・<a href="#teacher">教員主催企画</a>
       <br>
       今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
       <br><br>
-      <div class="text-h4" id="time">企画待ち時間</div>
+      <div class="text-h4" id="waittime">待ち時間一覧</div>
       待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a><br>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px" frameborder="0" loading="lazy" class="elevation-3 rounded-lg"></iframe>
         </v-col>
       </v-row>
+      <br><br>
+      <div class="text-h4" id="time">タイムテーブル</div>
+      <b>第一アリーナ(体育館)、屋外ステージ、音楽室(A棟3階)</b>で行われる企画はそれぞれ実施時間が決まっています。<br>➪<router-link :to=" { name: 'timetable' } ">タイムテーブルはこちら！</router-link>
+      
       <br><br>
       <div class="text-h4" id="tfpt">本部企画</div>
       <v-row dense>

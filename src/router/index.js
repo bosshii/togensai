@@ -40,6 +40,11 @@ const routes = [
     component: () => import("@/views/programs/PageProgramsAsta"),
   },
   {
+    path: "/programs/timetable",
+    name: "timetable",
+    component: () => import("@/views/programs/PageProgramsTimetable"),
+  },
+  {
     path: "/reservation",
     name: "reservation",
     component: () => import("@/views/PageReservation"),
