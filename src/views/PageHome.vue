@@ -17,6 +17,7 @@
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <v-carousel cycle hide-delimiter-background show-arrows-on-hover height="auto" style="max-width:500px">
             <v-carousel-item><router-link :to=" { name: 'programs' } "><v-img src="/images/hometop_waittime.png"></v-img></router-link></v-carousel-item>
+            <v-carousel-item><router-link :to=" { name: 'timetable' } "><v-img src="/images/hometop_timetable.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'radio' } "><v-img src="/images/hometop_radio.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'k1' } "><v-img src="/images/hometop_k-1.png"></v-img></router-link></v-carousel-item>
             </v-carousel>

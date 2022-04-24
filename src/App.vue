@@ -26,64 +26,32 @@
       </v-row>
       <v-list nav rounded>
         <template v-for="nav_list in nav_lists">
-            <v-list-item
-                style="color:white"
-                v-if="!nav_list.lists" 
-                :to="nav_list.link"
-                :key="nav_list.name"
-                  @click="menu_close"
-            >
-                <v-list-item-icon>
-                  <v-icon class="white--text">{{ nav_list.icon }}</v-icon>
-                </v-list-item-icon>
-                <v-list-item-content>
-                  <v-list-item-title>
-                    {{ nav_list.name }}
-                  </v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-group
-                v-else
-                no-action
-                color="white"
-                :key="nav_list.name"
-                v-model="nav_list.active"
-            >
-                <v-icon slot="prependIcon" color="white">{{ nav_list.icon }}</v-icon>
-                <v-icon slot="appendIcon" color="white">$expand</v-icon>
-                <template v-slot:activator>
-                    <v-list-item-content class="white--text">
-                      <v-list-item-title>
-                        {{ nav_list.name }}
-                      </v-list-item-title>
-                    </v-list-item-content>
-                </template>
-                <v-list-item
-                    v-for="list in nav_list.lists"
-                    :key="list.name"
-                    :to="list.link"
-                >
-                  <v-list-item-title class="white--text">
-                    {{ list.name }}
-                  </v-list-item-title>
-                  <v-list-item-icon>
-                    <v-icon v-text="list.icon" color="white"></v-icon>
-                  </v-list-item-icon>
-                </v-list-item>
-            </v-list-group>
-        </template>
-        <v-divider></v-divider>
-        <v-list-item
-            style="color:white" 
-            :to="{name: 'privacy'}"
-            @click="menu_close"
-        >
+          <v-list-item style="color:white" v-if="!nav_list.lists"  :to="nav_list.link" :key="nav_list.name" @click="menu_close">
             <v-list-item-icon>
-              <v-icon class="white--text">mdi-lock</v-icon>
+              <v-icon class="white--text">{{ nav_list.icon }}</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title>プライバシー</v-list-item-title>
+              <v-list-item-title>{{ nav_list.name }}</v-list-item-title>
             </v-list-item-content>
+          </v-list-item>
+          <v-list-group v-else no-action color="white" :key="nav_list.name" v-model="nav_list.active">
+            <v-icon slot="prependIcon" color="white">{{ nav_list.icon }}</v-icon>
+            <v-icon slot="appendIcon" color="white">$expand</v-icon>
+            <template v-slot:activator>
+              <v-list-item-content class="white--text">
+                <v-list-item-title>{{ nav_list.name }}</v-list-item-title>
+              </v-list-item-content>
+            </template>
+            <v-list-item v-for="list in nav_list.lists" :key="list.name" :to="list.link">
+              <v-list-item-title class="white--text">{{ list.name }}</v-list-item-title>
+              <v-list-item-icon><v-icon v-text="list.icon" color="white"></v-icon></v-list-item-icon>
+            </v-list-item>
+          </v-list-group>
+        </template>
+        <v-divider></v-divider>
+        <v-list-item style="color:white" :to="{name: 'privacy'}" @click="menu_close">
+          <v-list-item-icon><v-icon class="white--text">mdi-lock</v-icon></v-list-item-icon>
+          <v-list-item-content><v-list-item-title>プライバシー</v-list-item-title></v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -121,6 +89,9 @@ export default {
               lists:[
                 {
                   name:'企画一覧',link:'/programs/list',icon:'mdi-magnify'
+                },
+                {
+                  name:'タイムテーブル',link:'/programs/timetable',icon:'mdi-clock'
                 },
                 {
                   name:'とげラジ',link:'/programs/radio',icon:'mdi-radio'

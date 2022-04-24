@@ -8,7 +8,7 @@
       今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br>※写真は順次追加していきます
       <br><br>
       <div class="text-h4" id="waittime">待ち時間一覧</div>
-      待ち時間を確認して賢く兎原祭を回りましょう。<br>ブラウザの設定により表示されない場合、<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから表示</a>できます。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a><br>
+      待ち時間を確認して賢く兎原祭を回りましょう。約10分ごとに更新されます。<br>表示されない場合は<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから</a>。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a><br>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px" frameborder="0" loading="lazy" class="elevation-3 rounded-lg"></iframe>
@@ -16,7 +16,7 @@
       </v-row>
       <br><br>
       <div class="text-h4" id="time">タイムテーブル</div>
-      <b>第一アリーナ(体育館)、屋外ステージ、音楽室(A棟3階)</b>で行われる企画はそれぞれ実施時間が決まっています。<br>➪<router-link :to=" { name: 'timetable' } ">タイムテーブルはこちら！</router-link>
+      <b>第一アリーナ(体育館)、屋外ステージ、音楽室(A棟3階)</b>で行われる企画はそれぞれ実施時間が決まっています。音楽室の企画は、<span style="color:#ff0000">公演開始10分前から整理券を配布します。人数が限られていますのでお早めにお越しください！</span><br>➪<router-link :to=" { name: 'timetable' } ">タイムテーブルはこちらから！</router-link>
       
       <br><br>
       <div class="text-h4" id="tfpt">本部企画</div>
@@ -98,6 +98,7 @@
       </v-row>
       <br>
       <div class="text-h4" id="team">有志企画</div>
+      音楽室はA棟3階にございます。公演開始10分前から整理券を配布しますので、お早めにお越しください。
       <v-row dense>
         <v-col v-for="program in prgTeam" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
@@ -149,7 +150,7 @@ export default {
         { cat:'homeroom', title: '兎原寺の呪怨 ', at: 'X棟n階', by: '4年生', src: '/images/prg/unknown.png', desc: '鐘の鳴り響く丑三つ時。この寺ではその昔、抉り出した少女の頭蓋骨を供える呪われた儀式が行われていた…関係者の不審死により儀式は取りやめになったが、今もその寺に近づくものには謎の失踪が起きるという…' },
         { cat:'homeroom', title: 'MATSURI（縁日）', at: 'X棟n階', by: '4年生', src: '/images/prg/unknown.png', desc: 'スーパーボールすくいや射的などの屋台を出します。縁日で遊びたい人いたら、いつでも中庭にお越しくだい！射的でもスーパーボールでも何でもありますよ景品も御座います！とにかく中庭にお越しください！' },
         { cat:'homeroom', title: '劇(オリジナル脚本)', at: 'X棟n階', by: '5年生', src: '/images/prg/unknown.png', desc: 'ある大富豪一家で起こった不可解な殺人事件。完全オリジナルストーリーで構成する難解ミステリー！端から端まで伏線だらけのこの事件、結末を読まれない自信あり。この事件、あなたに解けますか？' },
-        { cat:'homeroom', title: 'ダイナソー', at: 'X棟n階', by: '5年生', src: '/images/prg/unknown.png', desc: 'ある大富豪一家で起こった不可解な殺人事件。完全オリジナルストーリーで構成する難解ミステリー！端から端まで伏線だらけのこの事件、結末を読まれない自信あり。この事件、あなたに解けますか？' },
+        { cat:'homeroom', title: 'ぐるぐるダイナソー', at: 'X棟n階', by: '5年生', src: '/images/prg/unknown.png', desc: '準備中' },
         { cat:'homeroom', title: 'The Escape', at: 'X棟n階', by: '5年生', src: '/images/prg/unknown.png', desc: 'お化け屋敷と謎解きゲームの融合。ようこそ滅亡した世界へ。あなたは自然を失ったこの地球に一人きり。彼女からのメッセージを頼りに様々な謎を解き、脱出用ロケットへたどり着け。想像を超える謎やからくりに挑め。愛を忘れるな。' },
         { cat:'homeroom', title: '演劇「不思議の国のアリス」', at: 'X棟n階', by: '6年生', src: '/images/prg/unknown.png', desc: '6年演劇では「不思議の国のアリス」を上演します！中等生活最後の兎原祭、受験勉強もあり各々が時間の無い中力を合わせて仕上げました。言わずと知れた名作、不思議の国のアリスを楽器演奏も交えてぜひお楽しみください！' },
         { cat:'homeroom', title: '大型制作', at: 'X棟n階', by: '6年生', src: '/images/prg/unknown.png', desc: '約50人で大規模製作に取り組みました！製作物は3つあり、チームラボ、つまようじアートに加え、9回生学年企画劇の舞台装置製作にも携わっています。個性豊かな製作物、ぜひ楽しんでください。' },
@@ -166,10 +167,10 @@ export default {
         { cat:'council', title: '自作ゲーム', at: 'X棟n階', by: 'PC部', src: '/images/prg/unknown.png', desc: 'プログラミングでゲーム作りや動画作りをみんなでしたり、1人でしたり和気藹々とした楽しくフレンドリーな部活動です。' },
         { cat:'council', title: '演劇', at: 'X棟n階', by: '演劇部', src: '/images/prg/unknown.png', desc: 'こんにちは、演劇部です！今回の作品は、いわゆる「学園モノ」。今しか出せないリアルさを大切に表現します。また、今回は一部ダブルキャスト。キャストによる違いも楽しめる要素のひとつです。是非お越しください！' },
         { cat:'council', title: '学校グッズ販売', at: 'X棟n階', by: '生徒会執行部', src: '/images/prg/council.png', desc: 'こんにちは！生徒会執行部です。中庭のアリーナ前で学校グッズを販売しています！ぜひお立ち寄りください！' },
-        { cat:'team', title: 'calm with heat(バンド)', at: 'X棟n階', by: '吹奏楽部・コーラス部有志', src: '/images/prg/unknown.png', desc: '私達5人は吹奏楽部とコーラス部で構成されています！音楽を知り、音楽が好きな私達だからこその力のある演奏をします！みんなが一度は聞いたことのある曲をするのでぜひ聴きに来てください！' },
-        { cat:'team', title: 'Leo(バンド)', at: 'X棟n階', by: '10回生有志', src: '/images/prg/unknown.png', desc: '私達は、10回生4人で構成されているバンドです！メンバーのボーカル兼エレキ、アコギ、キーボード、そして盛り上げ隊長(？)は、それぞれそれなりに個性的なメンバーです！バンドの名前は、8月の星座の名前から取りました。バンドを結成したのが丁度去年の8月だったからです。そんな私達が、約半年間かけて練習してきた数曲を、全力で演奏します！' },
-        { cat:'team', title: 'anima(バンド)', at: 'X棟n階', by: '9回生有志', src: '/images/prg/unknown.png', desc: 'こんにちは！私たちはanimaです。曲ごとによってメンバーが変わって出演するので、どの曲を誰がするかは当日のお楽しみ！最高に楽しいステージを届けるので一緒に盛り上がりましょう！' },       
-        { cat:'team', title: 'うなぎパイ補完計画(バンド)', at: 'X棟n階', by: '11回生有志', src: '/images/prg/unknown.png', desc: 'うなぎパイ補完計画（仮）です。ノリと勢いだけで集まった６人組がアニメ曲を演奏します。サックスが入っていたりキーボードが二人だったり摩訶不思議なバンドですがぜひ聞きに来てください' },
+        { cat:'team', title: 'calm with heat(バンド)', at: '音楽室', by: '吹奏楽部・コーラス部有志', src: '/images/prg/unknown.png', desc: '私達5人は吹奏楽部とコーラス部で構成されています！音楽を知り、音楽が好きな私達だからこその力のある演奏をします！みんなが一度は聞いたことのある曲をするのでぜひ聴きに来てください！' },
+        { cat:'team', title: 'Leo(バンド)', at: '音楽室', by: '10回生有志', src: '/images/prg/unknown.png', desc: '私達は、10回生4人で構成されているバンドです！メンバーのボーカル兼エレキ、アコギ、キーボード、そして盛り上げ隊長(？)は、それぞれそれなりに個性的なメンバーです！バンドの名前は、8月の星座の名前から取りました。バンドを結成したのが丁度去年の8月だったからです。そんな私達が、約半年間かけて練習してきた数曲を、全力で演奏します！' },
+        { cat:'team', title: 'anima(バンド)', at: '音楽室', by: '9回生有志', src: '/images/prg/unknown.png', desc: 'こんにちは！私たちはanimaです。曲ごとによってメンバーが変わって出演するので、どの曲を誰がするかは当日のお楽しみ！最高に楽しいステージを届けるので一緒に盛り上がりましょう！' },       
+        { cat:'team', title: 'うなぎパイ補完計画(バンド)', at: '音楽室', by: '11回生有志', src: '/images/prg/unknown.png', desc: 'うなぎパイ補完計画（仮）です。ノリと勢いだけで集まった６人組がアニメ曲を演奏します。サックスが入っていたりキーボードが二人だったり摩訶不思議なバンドですがぜひ聞きに来てください' },
         { cat:'team', title: 'ダンス企画', at: 'X棟n階', by: '11～13回生有志', src: '/images/prg/unknown.png', desc: '私たちアスリコットは11回生から13回生までのメンバーでダンスパフォーマンスをします！学年をまたいでのパフォーマンスも！？来たらあなたも盛り上がること間違いなし！ぜひ見に来てください！' },
         { cat:'team', title: '有志アニメーション', at: 'X棟n階', by: '10回生有志', src: '/images/prg/unknown.png', desc: '「悪霊退散!」でお馴染みの陰陽師、実は現代技術を駆使する者だった!?この世界に隔たりなんて存在しない。奇想天外な「歴史×テクノロジー」堂々登場！' },
         { cat:'teacher', title: '教員主催企画', at: 'X棟n階', by: '教員', src: '/images/prg/council.png', desc: '教員主催企画の例' },
