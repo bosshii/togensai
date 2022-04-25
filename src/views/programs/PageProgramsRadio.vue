@@ -71,6 +71,8 @@ export default {
           title: "09:50~10:30　It's ASTime",
           day: "1",
           program: "謎の科学集団ASTAがお送りするトーク番組。（ASTAの活動やサイエンスショーについて宣伝するかも。）",
+          form: "on",
+          formlink: "https://docs.google.com/forms/d/e/1FAIpQLSf-Ejsn6s54KEAxy3AhJSxqG-IBPmGjJmpd9rcBdKalkYdMSA/viewform?usp=sf_link"
         },
         {
           title: "10:40~11:40　十大陸漫遊記",
@@ -95,14 +97,14 @@ export default {
           program: "ベテランラジオMC：CHIKAによるトークラジオのコーナーです。どうぞご期待〜",
         },
         {
-          title: "09:00~09:40　It's ASTime",
-          day: "2",
-          program: "謎の科学集団ASTAがお送りするトーク番組。（ASTAの活動やサイエンスショーについて宣伝するかも。）",
-        },
-        {
-          title: "09:50~10:30　？？？(14回生ラジオ）",
+          title: "09:00~09:40　？？？(14回生ラジオ）",
           day: "2",
           program: "14回生がラジオを行います。入学して間もないですが頑張ります。",
+        },
+        {
+          title: "09:50~10:30　It's ASTime",
+          day: "2",
+          program: "謎の科学集団ASTAがお送りするトーク番組。（ASTAの活動やサイエンスショーについて宣伝するかも。）",
         },
         {
           title: "10:40~11:40　十大陸漫遊記",
