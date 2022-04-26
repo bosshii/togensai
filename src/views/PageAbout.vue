@@ -30,6 +30,10 @@
           <v-carousel cycle hide-delimiter-background show-arrows-on-hover height="auto" style="max-width:500px">
             <v-carousel-item><v-img src="/images/gallery_bekuss.jpg"></v-img></v-carousel-item>
             <v-carousel-item><v-img src="/images/gallery_board.jpg"></v-img></v-carousel-item>
+            <v-carousel-item><v-img src="/images/gallery_stairs.jpg"></v-img></v-carousel-item>
+            <v-carousel-item><v-img src="/images/gallery_togetan.jpg"></v-img></v-carousel-item>
+            <v-carousel-item><v-img src="/images/gallery_wall1.jpg"></v-img></v-carousel-item>
+            <v-carousel-item><v-img src="/images/gallery_wall2.jpg"></v-img></v-carousel-item>
           </v-carousel>
         </v-col>
       </v-row>

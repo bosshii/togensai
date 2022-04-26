@@ -128,6 +128,11 @@ export default {
               link: '/announcements'
             },
             {
+              name: '来場者アンケート',
+              icon: 'mdi-message-text',
+              link: '/survey'
+            },
+            {
               name: 'このサイトについて',
               icon: 'mdi-cellphone-link',
               link: '/ict'
