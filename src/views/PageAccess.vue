@@ -12,8 +12,8 @@
           <v-btn color="primary" href="https://goo.gl/maps/DG2B3U2v3aWNwKBs8" target="_blank" outlined>別画面で表示&nbsp;<v-icon>mdi-open-in-new</v-icon></v-btn>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
-          <span class="text-h6">阪急電車</span>
-            <ul><li>阪急電車御影駅すぐの阪急御影バス停もしくは阪急御影北口バス停より神戸市バス19系統もしくは39系統をご利用いただき、神大附属前バス停でお降りください。なお、徒歩でも15分程度でご来校いただけますが、標高差100mをのぼる急坂です。<br>（<a href="https://www.city.kobe.lg.jp/life/access/transport/bus/jikoku/basjikoku/009101.pdf">時刻表</a>）</li></ul>
+          <span class="text-h6">阪急電車&nbsp;<v-btn :ripple="false" color="#ff0707" depressed rounded small class="white--text">推奨</v-btn></span>
+            <ul><li>阪急電車御影駅すぐの阪急御影バス停もしくは阪急御影北口バス停より神戸市バス19系統もしくは39系統をご利用いただき、神大附属前バス停でお降りください。<a href="https://www.city.kobe.lg.jp/life/access/transport/bus/jikoku/basjikoku/009101.pdf">通常便</a>に加えて、<u><b>阪急御影北口から臨時便を運行します</b></u>(時刻は設定せず、来場者の状況に応じて運行)。なお、徒歩でも15分程度でご来校いただけますが、標高差100mをのぼる急坂です。</li></ul>
             <span class="text-h6">阪神電車</span>
             <ul><li>阪神電車御影駅すぐの阪神御影バス停より神戸市バス19系統もしくは39系統をご利用いただき、神大付属前バス停でお降りください。なお、39系統は若干遠回りのため、19系統のご利用をおすすめいたします。<br>（<a href="https://www.city.kobe.lg.jp/life/access/transport/bus/jikoku/basjikoku/000103.pdf">時刻表</a>）</li></ul>
             <span class="text-h6">JR</span>
