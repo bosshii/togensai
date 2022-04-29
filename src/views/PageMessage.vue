@@ -2,14 +2,12 @@
   <div class="message">
     <v-container class="my-5">
       <div class="text-h3">校長挨拶</div>
-      <br><br>
-      本校校長・井上真理からのご挨拶です。
-      <br>
+      <div style="height:30px"></div>
       <v-row class="d-flex column" align="center">
-        <v-col class="d-flex justify-center" cols="5" align-self="start">
+        <v-col class="d-flex justify-left msgphoto" cols="12" xs="12" sm="12" md="3" lg="3" xl="3" align-self="start">
           <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="/images/message_inoue.jpg" alt="校長・井上真理"></v-avatar>
         </v-col>
-        <v-col class="d-flex justify-center">
+        <v-col class="d-flex justify-center msgbox">
           <v-card elevation="2" outlined shaped>
             <v-card-title>兎原祭メッセージ</v-card-title>
             <v-card-text><div class="text-body-1" style="color:black">
@@ -22,24 +20,34 @@
           </v-card>
         </v-col>
       </v-row>
-      <!--v-row class="d-flex column" align="center">
-        <v-col class="d-flex justify-center" cols="7">
+      <v-row class="d-flex column" align="center">
+        <v-col class="d-flex justify-left msgphoto" cols="12" xs="12" sm="12" md="3" lg="3" xl="3" align-self="start">
+          <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="/images/message_hirano.jpg" alt="実行委員長"></v-avatar>
+        </v-col>
+        <v-col class="d-flex justify-center msgbox">
           <v-card elevation="2" outlined shaped>
             <v-card-title>実行委員長挨拶</v-card-title>
             <v-card-text><div class="text-body-1" style="color:black">
-              あああ
+              <p>第10回兎原祭のHPをご覧いただき誠にありがとうございます。
+              <p>今回の兎原祭は、本校に文化祭というものが誕生してから10回目という節目の年になります。開校から続く生徒主体の精神は脈々と受け継がれ、第10回兎原祭も全校生徒一丸となって準備を進めております。10年間を振り返り、これからに繋げていく第10回兎原祭はシンプル、それでいて挑戦的です。</p>
+              <p>立ち返ってみると、文化祭とは生徒の活動を発展させ、それを披露し、鑑賞し合うイベントです。普段は同一空間上で行われないような取り組み・活動も、兎原祭では一緒くたになって行われます。それが兎原祭のおもしろさであり、それが我々生徒にとって成長の糧となることの所以であると思います。</p>
+              <p>兎原祭最大の魅力は「自由」であること。兎原祭では、様々な興味関心を持つ生徒が、それぞれ個性豊かな企画を行います。その興味関心に制約はありません。<br>唯一、全ての企画に共通して言えることは、開催に向けて真摯に準備しているということでしょう。</p>
+              <p>今年は実際に来て、見て、遊んで、そんな兎原祭をお楽しみください。</p>
             </div></v-card-text>
           </v-card>
         </v-col>
-        <v-col class="d-flex justify-center" align-self="start">
-          <v-avatar :size="$vuetify.breakpoint.xs ? 100 : 200"><img src="/images/leader.png" alt="実行委員長"></v-avatar>
-        </v-col>
-      </v-row-->
+      </v-row>
     </v-container>
   </div>
 </template>
 <script></script>
 <style>
+.msgphoto {
+  padding: 12px 12px 3px 12px!important;
+}
+.msgbox {
+  padding: 2px 12px 12px 12px!important;
+}
 p{
   text-indent: 1em;
 }
