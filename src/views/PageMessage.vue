@@ -1,7 +1,8 @@
 <template>
   <div class="message">
     <v-container class="my-5">
-      <div class="text-h3">校長挨拶</div>
+      <div class="text-h3">校長・委員長挨拶</div>
+      本校校長・井上と第10回兎原祭実行委員長・平野からのご挨拶です。
       <div style="height:30px"></div>
       <v-row class="d-flex column" align="center">
         <v-col class="d-flex justify-left msgphoto" cols="12" xs="12" sm="12" md="3" lg="3" xl="3" align-self="start">
