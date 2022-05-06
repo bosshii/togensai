@@ -33,12 +33,12 @@
           </v-card-title></v-card>
           <v-card rounded="xl" class="rounded-tl-0"><v-card-title class="text-h6"><v-icon color="primary">mdi-information-outline</v-icon>&nbsp;&nbsp;お知らせ</v-card-title>
             <v-card-text style="color:black">
-              お知らせはここに掲載されます。
+              {{ notice }}
             </v-card-text>
           </v-card>
           <v-card rounded="xl" class="rounded-tl-0 my-2"><v-card-title class="text-h6"><v-icon color="primary">mdi-help-circle-outline</v-icon>&nbsp;&nbsp;落とし物</v-card-title>
             <v-card-text style="color:black">
-              心当たりのある方は3階物理教室へ
+              {{ lost }}
             </v-card-text>
           </v-card>
         </v-col>
@@ -100,19 +100,27 @@ export default {
     return{
       post1: "CcSO2iIpvu7",
       post2: "CcSO2iIpvu7",
-      post3: "CcSO2iIpvu7"
+      post3: "CcSO2iIpvu7",
+      notice: "お知らせはここに掲載されます。",
+      lost: "心当たりのある方は3階物理教室へ"
     }
   },
   mounted(){
     axios
-      .get('https://ring.togensai.jp/posts.php')
+      .get('https://ring.togensai.jp/json.php')
       .then(response => { this.post1 = response.data.post1 })
     axios
-      .get('https://ring.togensai.jp/posts.php')
+      .get('https://ring.togensai.jp/json.php')
       .then(response => { this.post2 = response.data.post2 })
     axios
-      .get('https://ring.togensai.jp/posts.php')
+      .get('https://ring.togensai.jp/json.php')
       .then(response => { this.post3 = response.data.post3 })
+    axios
+      .get('https://ring.togensai.jp/json.php')
+      .then(response => { this.notice = response.data.notice })
+    axios
+      .get('https://ring.togensai.jp/json.php')
+      .then(response => { this.lost = response.data.lost })
     let scriptEl = document.createElement('script')
       scriptEl.setAttribute('src', 'https://www.instagram.com/embed.js')
       document.head.appendChild(scriptEl)
