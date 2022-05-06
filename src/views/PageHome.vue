@@ -105,13 +105,13 @@ export default {
   },
   mounted(){
     axios
-      .get('https://sys.togensai.jp/posts.php')
+      .get('https://ring.togensai.jp/posts.php')
       .then(response => { this.post1 = response.data.post1 })
     axios
-      .get('https://sys.togensai.jp/posts.php')
+      .get('https://ring.togensai.jp/posts.php')
       .then(response => { this.post2 = response.data.post2 })
     axios
-      .get('https://sys.togensai.jp/posts.php')
+      .get('https://ring.togensai.jp/posts.php')
       .then(response => { this.post3 = response.data.post3 })
     let scriptEl = document.createElement('script')
       scriptEl.setAttribute('src', 'https://www.instagram.com/embed.js')
