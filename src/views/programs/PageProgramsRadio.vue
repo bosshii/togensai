@@ -3,10 +3,14 @@
     <v-container class="my-5">
       <div class="text-h3">とげラジ</div>
       <br><br>
-      これまで音楽を流すだけであった兎原祭の放送でトークを繰り広げるラジオ企画・その名も とげラジ が帰ってきました！MCがゲストの方と、それぞれ決められたテーマに沿ってトークを繰り広げます。ぜひ、休憩時間や待ち時間にお聞きください！
-      <br>
-      <div class="text-h6 text-decoration-underline">お便り受け付けます！</div>
-      番組のうち<v-btn :ripple="false" color="#ff0707" depressed rounded small class="white--text">お便り</v-btn>のあるものはお便りや投票を受け付けます！気軽に書いてみましょう！<br>
+      <v-row>
+        <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5"><v-img src="/images/radio.png" class="align-end" height="auto"></v-img></v-col>
+        <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
+          これまで音楽を流すだけであった兎原祭の放送でトークを繰り広げるラジオ企画・その名も とげラジ が帰ってきました！MCがゲストの方と、それぞれ決められたテーマに沿ってトークを繰り広げます。ぜひ、休憩時間や待ち時間にお聞きください！
+          <br>
+          <div class="text-h6 text-decoration-underline">お便り受け付けます！</div>番組のうち<v-btn :ripple="false" color="#ff0707" depressed rounded small class="white--text">お便り</v-btn>のあるものはお便りや投票を受け付けます！気軽に書いてみましょう！
+        </v-col>
+      </v-row>
       <div class="text-h4">タイムテーブル</div>
       <v-tabs color="pink accent-2">
         <v-tabs-slider color="pink" />
