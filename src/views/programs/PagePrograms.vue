@@ -8,12 +8,12 @@
       今年も個性豊かな企画が沢山集まりました。皆さんのご来訪をお待ちしています！<br><br>※写真・詳細情報は順次追加していきます
       <br><br>
       <div class="text-h4" id="waittime">待ち時間一覧</div>
-      待ち時間を確認して賢く兎原祭を回りましょう。待ち時間表示システムは兎原祭直前に公開いたします。<!--br>表示されない場合は<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&single=true" target="_blank">こちらから</a>。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvxjeDordd-2sF7e-w1F65PKVETQJES5AZb4GSwSHjhuI1eg/viewform" target="_blank">更新する</a><br>
+      待ち時間を確認して賢く兎原祭を回りましょう。<br>表示されない場合は<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0yCISgJd2X-7nac2_KXjxTmJTuRACj4stpBTJOYTBAtovUaGAmKObObZKHNKa0nyClZEX8ry5jSRS/pubhtml?gid=1741501077&single=true" target="_blank">こちらから</a>。<br>担当者向け:<a href="https://docs.google.com/forms/d/e/1FAIpQLSc3gj6ZEWxxNhYOHym8yLWhAaG0TFsnRDFK5ulkIPFG3yDUjA/viewform?usp=sf_link" target="_blank">更新する</a><br>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvYmxJPjxoXQHa226KIyZaCPu6g8hy_UGEWh8CXT9D595nnoigyYlH8faMfpQTUo1UbdwIA5jPKtjh/pubhtml?gid=1741501077&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px" frameborder="0" loading="lazy" class="elevation-3 rounded-lg"></iframe>
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0yCISgJd2X-7nac2_KXjxTmJTuRACj4stpBTJOYTBAtovUaGAmKObObZKHNKa0nyClZEX8ry5jSRS/pubhtml?gid=1741501077&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="400px" frameborder="0" loading="lazy" class="elevation-3 rounded-lg"></iframe>
         </v-col>
-      </v-row-->
+      </v-row>
       <br><br>
       <div class="text-h4" id="time">タイムテーブル</div>
       <b>第一アリーナ(体育館)、屋外ステージ、音楽室(A棟3階)</b>で行われる企画はそれぞれ実施時間が決まっています。音楽室の企画は、<span style="color:#ff0000">公演開始10分前から整理券を配布します。人数が限られていますのでお早めにお越しください！</span><br>➪<router-link :to=" { name: 'timetable' } ">タイムテーブルはこちらから！</router-link>
@@ -145,8 +145,9 @@ export default {
         { cat:'homeroom', title: 'ワールドカーニバルゲーム', at: 'X棟n階', by: '2年生', src: '/images/prg/unknown.png', desc: 'トマトをたらいの中に投げ込んだりトマト瓶を倒したりして得点を稼ぐゲーム。　　　　　この企画はスペインで催されるトマティーナという祭りを参考に起案されたものです。実際の祭りでトマトを投げ合う様にならって、トマトを投げて遊べるようになっています。企画を楽しんでいただけるように精力を尽くしますので、是非よろしくお願いします。' },
         { cat:'homeroom', title: 'キノッコvsタケノッコ', at: 'X棟n階', by: '3年生', src: '/images/prg/kinokotakenoko.png', desc: 'ここはお菓子の星、アポロ。星には二つ国がある。その名も『タケノッコ王国』と『キノッコ王国』どちらの王子も同じ姫に恋をしてしまう。『勝てば姫をやる』という条件で戦うことに…。果たして姫はどちらの手に！？' },
         { cat:'homeroom', title: '校襲電話～あなたには見えますか～', at: 'X棟n階', by: '3年生', src: '/images/prg/telephone.png', desc: '人間を恨んでいる人形、マリーさんと繋がった電話を切るために呪われた教室を通り、受話器を戻す、ミッション型のお化け屋敷です。　　　　　みなさん、こんにちは！突然ですがみなさんはお化けを信じていますか？信じてない人は一度、お化け屋敷「校襲電話」に来てみるといいでしょう。ただし、入って無事に帰って来れる補償はないです...あなたは託された任務を無事にクリアし、無事帰って来ることができるでしょうか。是非来てください‼️' },
+        { cat:'homeroom', title: 'うばら堂', at: 'X棟n階', by: '3年生', src: '/images/prg/ubaradou.png', desc: 'この企画では、日本と外国の遊びを楽しむことが出来ます。よくある遊びから、あまりない遊びまで！ おもいっきり力を使ってストレス発散し、大量のお菓子をゲットして幸せを感じましょう!? ぜひ遊びに来てください!!' },
         { cat:'homeroom', title: 'Everybody!!!', at: 'X棟n階', by: '4年生', src: '/images/prg/everybody.jpg', desc: 'この企画では時間帯ごとにいろんな種類の(ミニゲーム、クイズ、ビンゴなど)大人数で行えるゲームを楽しめます！COVID-19対策を徹底して実施します。１人でも複数人でもかるーく遊びに来てください！' },
-        { cat:'homeroom', title: 'うばら堂', at: 'X棟n階', by: '4年生', src: '/images/prg/ubaradou.png', desc: 'この企画では、日本と外国の遊びを楽しむことが出来ます。よくある遊びから、あまりない遊びまで！ おもいっきり力を使ってストレス発散し、大量のお菓子をゲットして幸せを感じましょう!? ぜひ遊びに来てください!!' },
+        { cat:'homeroom', title: '兎原寺の呪怨 ', at: 'X棟n階', by: '4年生', src: '/images/prg/unknown.png', desc: '鐘の鳴り響く丑三つ時。この寺ではその昔、抉り出した少女の頭蓋骨を供える呪われた儀式が行われていた…関係者の不審死により儀式は取りやめになったが、今もその寺に近づくものには謎の失踪が起きるという…' },
         { cat:'homeroom', title: '縁日Fes', at: 'X棟n階', by: '4年生', src: '/images/prg/ennichifes.png', desc: 'スーパーボールすくいや射的などの屋台を出します。縁日で遊びたい人いたら、いつでも中庭にお越しください！射的でもスーパーボールでも何でもありますよ景品も御座います！とにかく中庭にお越しください！' },
         { cat:'homeroom', title: '劇「書きかけのミステリー」', at: '第1アリーナ', by: '5年生', src: '/images/prg/mistery.png', desc: 'ある大富豪一家で起こった不可解な殺人事件。完全オリジナルストーリーで構成する難解ミステリー！端から端まで伏線だらけのこの事件、結末を読まれない自信あり。この事件、あなたに解けますか？' },
         { cat:'homeroom', title: 'ぐるぐるダイナソーカップ', at: 'X棟n階', by: '5年生', src: '/images/prg/dino.jpg', desc: 'ぐるぐるダイナソーカップはタイムスリップできるカップに乗って恐竜時代に行き恐竜の世界を楽しむアトラクションです。ぐるぐるとたくさん回転するアトラクションなので飛ばされたり酔ったりしないように気をつけてください！Lets Dinosaur！' },
