@@ -7,7 +7,7 @@
       <br><br>
       <div class="text-h4">防疫対策</div>
       <v-card elevation="1" style="border: 1px solid black; margin-bottom:5px;">
-        <v-card-title class="font-weight-bold"><v-icon color="pink">mdi-alert-circle</v-icon>&nbsp;【防疫】守ってほしいこと</v-card-title>
+        <v-card-title class="font-weight-bold"><v-icon color="pink">mdi-alert-circle</v-icon>&nbsp;守ってほしいこと</v-card-title>
         <v-card-text><div class="text-body-1" style="color:black"><ol>
           <li>昼食時以外はマスクを必ずつけましょう。</li>
           <li>兎原祭中は人と人との距離を保ち、長時間の会話は控えましょう。</li>
@@ -40,10 +40,20 @@
       <div class="text-h4">生徒の皆さんへ</div>
       <p>情報機器は節度をもって利用しましょう。歩きスマホは危険です。
       <div class="text-h5">情報委員会から</div>
-      <v-card elevation="2" loading="pink" loader-height="3" width="50%">
-        <v-card-title>現在執筆中</v-card-title>
-        <v-card-text>現在作成中です。しばらくお待ちください。</v-card-text>
+      今年度の兎原祭でのICT機器の使用に関する禁止・注意事項について、兎原祭実行委員・情報委員会で話し合い、決定した内容をお知らせします。これらの事項は個人情報保護や肖像権・著作権の侵害等による重大なトラブルの発生を抑制するために作成しています。ご理解、ご協力をお願いします。
+      <v-card elevation="15" loading="pink" loader-height="3">
+        <v-card-title>〜禁止事項〜</v-card-title>
+        <v-card-text><div class="text-body-1" style="color:black"><ul>
+          <li>個人や人物の撮影の際、<b><u>本人の許可を取らずに撮影する行為を禁止する</u></b></li>
+          <li><b><u>撮影したデータの送受信及び公開を禁止する</u></b>.このとき<b><u>企画で使用されている制作物等の著作物の撮影データ等の送受信も禁止</u></b>する(SNS・メール・ウェブサイト等へのアップロードを含む)</li>
+          <li><b><u>野外ステージ・アリーナで開催される、有志者によるパフォーマンス等(コーラス部・ダンス・バンド等)の撮影・録音等は禁止する</u></b>.ただし、教員等から撮影・録音等の許可を取り、十分に配慮している団体及び生徒による撮影・録音等はこの限りでない</li>
+          <li>校内Wi-Fiの使用に関しては<b><u>兎原祭に関係のないサイト等の閲覧を禁止する</u></b></li>
+        </ul></div></v-card-text>
       </v-card>
+      <br>
+      以上の禁止事項に加え、<b><u>常識の範囲内での使用</u></b>をよろしくお願いします。また、<b><u>情報モラル・基本的な携帯電話の利用マナーを遵守してください</u></b>。<br>
+      大きなトラブルが発生してからでは<b><u>取り返しがつきません</u></b>。また、大きなそのような事態が発生した際には、<b><u>校内でのICTデバイスの利用に制限をかけるといった措置が取られることがあります</u></b>。そうなってしまった際に<b><u>不利益を被るのは自分たちであるということを理解し、友達・仲間同士で注意し合うように</u></b>してください。
+      大きなトラブルが発生しないようにルール・マナーを守ってICTの利用をしてください。
     </v-container>
   </div>
 </template>
