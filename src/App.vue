@@ -9,8 +9,8 @@
       </v-toolbar-title>
       <template v-slot:extension>
       <div class="topbtn">
-      <v-btn depressed outlined color="pink accent-2" style="padding: 0px 4px" :to="{name: 'radio'}">
-        <span>ラジオお便り募集<v-icon>mdi-email-outline</v-icon></span>
+      <v-btn depressed outlined color="red accent-2" style="padding: 0px 4px; border-width: 3px;" :to="{name: 'radio'}">
+        <span>お便り緊急募集!<v-icon>mdi-email-outline</v-icon></span>
       </v-btn>
       &nbsp;
       <v-btn depressed color="pink accent-2" :to="{name: 'reservation'}">
