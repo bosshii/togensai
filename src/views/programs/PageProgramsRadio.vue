@@ -97,6 +97,7 @@ export default {
           title: "13:10~13:50　ぼーちゃんラジオ",
           day: "1",
           program: "ESS部所属のチハヤ、ノブト、タイラ、トムがお送りするゆるくてディープなラジオ、のんびりトークしながら皆さんの質問にお答えします。",
+          form: "on",
           formlink: "https://docs.google.com/forms/d/e/1FAIpQLSdFSxLtLSi2mQK8pzMjdJnH_cPAlAukMEFGcqsXW4kTasu3qg/viewform?embedded=true",
         },
         {
