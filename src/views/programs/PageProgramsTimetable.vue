@@ -8,7 +8,7 @@
       <br><br>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
-          <a href="https://docs.google.com/viewer?url=https://togensai.jp/files/timetable.pdf">表示されない場合はこちら&nbsp;<v-icon color="primary">mdi-open-in-new</v-icon></a><!--（<a href="https://togensai.jp/files/timetable.png">それでも表示されない場合</a>）--><br><br>
+          <a href="https://docs.google.com/viewer?url=https://togensai.jp/files/timetable.pdf" target="_blank">表示されない場合はこちら&nbsp;<v-icon color="primary">mdi-open-in-new</v-icon></a>（<a href="https://togensai.jp/files/timetable.png" target="_blank">それでも表示されない場合</a>）<br><br>
           <iframe height="700px" width="100%" class="GoogleDriveViewer__Frame--1sgoy elevation-3 rounded-lg" src="https://docs.google.com/viewer?url=https%3A%2F%2Ftogensai.jp%2Ffiles%2Ftimetable.pdf&amp;embedded=true" style="border: none;">読み込んでいます...</iframe>
         </v-col>
       </v-row>

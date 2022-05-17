@@ -4,7 +4,7 @@
       <div class="text-h3">とげラジ</div>
       <br><br>
       <v-row>
-        <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5"><a href="https://docs.google.com/forms/d/e/1FAIpQLSelqLP0tI7Bhdk7h2qc9j4GTwqE1lH4338nNIDU35I2VbuYcw/viewform?usp=sf_link"><v-img src="/images/hometop_radio-emergency.png" class="align-end" height="auto"></v-img><b>兎原祭カウントダウンに誰かへの応援メッセージ募集します！！「こんなん頑張るぞ〜！」という意気込みや、「Xさん〇〇頑張ってください！」などのメッセージを募集します。簡単なものでいいので、どしどしお寄せください！皆さんのご協力がないと兎原祭が始められません！！ホントに、、ホントに、、お願いします...！！</b></a></v-col>
+        <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5"><v-img src="/images/hometop_radio.png" class="align-end" height="auto"></v-img></v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
           これまで音楽を流すだけであった兎原祭の放送でトークを繰り広げるラジオ企画・その名も とげラジ が帰ってきました！MCがゲストの方と、それぞれ決められたテーマに沿ってトークを繰り広げます。ぜひ、休憩時間や待ち時間にお聞きください！
           <br>

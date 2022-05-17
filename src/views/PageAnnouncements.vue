@@ -5,6 +5,16 @@
       <br><br>
       みなさんに向けたお知らせ・お願いです。
       <br><br>
+      <div class="text-h4">保護者の方へ(フードコート)</div>
+      20日にご来校される保護者の皆様には、飲食を行うスペースとしてフードコートを16席ご用意しております。新型コロナウイルス感染対策としてフードコート以外での水分補給を除く飲食は原則不可とさせていただきますので、ご理解の程よろしくお願いします。<br>
+      フードコートの空席状況は<router-link :to=" { name: 'programs' } ">こちらからご確認いただけます</router-link>。
+      <v-row>
+        <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
+          <a href="https://docs.google.com/viewer?url=https://togensai.jp/files/foodcourt.pdf" target="_blank">表示されない場合はこちら&nbsp;<v-icon color="primary">mdi-open-in-new</v-icon></a>（<a href="https://togensai.jp/files/foodcourt.pdf" target="_blank">それでも表示されない場合</a>）<br><br>
+          <iframe height="700px" width="100%" class="GoogleDriveViewer__Frame--1sgoy elevation-3 rounded-lg" src="https://docs.google.com/viewer?url=https%3A%2F%2Ftogensai.jp%2Ffiles%2Ffoodcourt.pdf&amp;embedded=true" style="border: none;">読み込んでいます...</iframe>
+        </v-col>
+      </v-row>
+      <br><br>
       <div class="text-h4">防疫対策</div>
       <v-card elevation="1" style="border: 1px solid black; margin-bottom:5px;">
         <v-card-title class="font-weight-bold"><v-icon color="pink">mdi-alert-circle</v-icon>&nbsp;守ってほしいこと</v-card-title>
@@ -41,7 +51,7 @@
       <p>情報機器は節度をもって利用しましょう。歩きスマホは危険です。
       <div class="text-h5">情報委員会から</div>
       今年度の兎原祭でのICT機器の使用に関する禁止・注意事項について、兎原祭実行委員・情報委員会で話し合い、決定した内容をお知らせします。これらの事項は個人情報保護や肖像権・著作権の侵害等による重大なトラブルの発生を抑制するために作成しています。ご理解、ご協力をお願いします。
-      <v-card elevation="15" loading="pink" loader-height="3">
+      <v-card elevation="15">
         <v-card-title>〜禁止事項〜</v-card-title>
         <v-card-text><div class="text-body-1" style="color:black"><ul>
           <li>個人や人物の撮影の際、<b><u>本人の許可を取らずに撮影する行為を禁止する</u></b></li>
