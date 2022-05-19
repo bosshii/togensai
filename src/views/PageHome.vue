@@ -16,16 +16,17 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
           <v-carousel cycle hide-delimiter-background show-arrows-on-hover height="auto" style="max-width:500px">
-            <v-carousel-item><router-link :to=" { name: 'radio' } "><v-img src="/images/hometop_radio.png"></v-img></router-link></v-carousel-item>
+            <v-carousel-item><v-img src="/images/hometop_live.png"></v-img></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'timetable' } "><v-img src="/images/hometop_timetable.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'programs' } "><v-img src="/images/hometop_waittime.png"></v-img></router-link></v-carousel-item>
+            <v-carousel-item><router-link :to=" { name: 'radio' } "><v-img src="/images/hometop_radio.png"></v-img></router-link></v-carousel-item>
             <v-carousel-item><router-link :to=" { name: 'k1' } "><v-img src="/images/hometop_k-1.png"></v-img></router-link></v-carousel-item>
             </v-carousel>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
           <v-card elevation="2" color="pink lighten-4" loading tile>
             <v-card-text><div class="text-body-1" style="color:black">
-              今年の兎原祭では、新型コロナウィルス感染拡大防止のため、入場を<b>完全予約制</b>といたします。<router-link :to=" { name: 'reservation' } ">入場予約について詳しく見る➪</router-link>
+              <b>【重要】車でのご来校は絶対におやめください。</b>駐車スペースの用意はありません。詳しくは<router-link :to=" { name: 'access' } ">アクセスページ</router-link>をご覧ください。
             </div></v-card-text>
           </v-card>
           <v-card rounded="xl" class="rounded-tl-0 my-2"><v-card-title class="text-h6"><v-icon color="primary">mdi-lightbulb-on</v-icon>&nbsp;&nbsp;

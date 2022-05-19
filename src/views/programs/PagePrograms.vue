@@ -116,7 +116,7 @@
         </v-col>
       </v-row>
       <br>
-      <div class="text-h4" id="teacher">教員主催企画</div>
+      <div class="text-h4" id="teacher">教員主催企画・PTA</div>
       <v-row dense>
         <v-col v-for="program in prgTeacher" :key="program.title" cols="6" xs="6" sm="4" md="3" lg="3" xl="3">
           <v-card>
@@ -155,13 +155,13 @@ export default {
         { cat:'homeroom', title: 'The Escape', at: 'C205[社会科室]', by: '5年生', src: '/images/prg/theescape.png', desc: 'お化け屋敷と謎解きゲームの融合。ようこそ滅亡した世界へ。あなたは自然を失ったこの地球に一人きり。彼女からのメッセージを頼りに様々な謎を解き、脱出用ロケットへたどり着け。想像を超える謎やからくりに挑め。愛を忘れるな。' },
         { cat:'homeroom', title: '演劇「不思議の国のアリス」', at: '第1アリーナ', by: '6年生', src: '/images/prg/alice.jpg', desc: '6年演劇では「不思議の国のアリス」を上演します！中等生活最後の兎原祭、受験勉強もあり各々が時間の無い中力を合わせて仕上げました。言わずと知れた名作、不思議の国のアリスを楽器演奏も交えてぜひお楽しみください！' },
         { cat:'homeroom', title: '大型制作', at: 'D203', by: '6年生', src: '/images/prg/works.png', desc: '約50人で大規模製作に取り組みました！製作物は3つあり、Kuss Art of Light、つまようじアートに加え、9回生学年企画劇の舞台装置製作にも携わっています。個性豊かな製作物、ぜひ楽しんでください。' },
-        { cat:'homeroom', title: '映像制作', at: 'X棟n階', by: '6年生', src: '/images/prg/unknown.png', desc: '準備中' },
+        { cat:'homeroom', title: '映像制作', at: 'D203', by: '6年生', src: '/images/prg/unknown.png', desc: '&nbsp;' },
         { cat:'council', title: 'ミュージカル「シンデレラ」', at: '第1アリーナ', by: 'ESSパフォーマンス部', src: '/images/prg/essperformance.jpg', desc: '皆さんは観たくなる魔法にかかりましたか？誰も想像し得ない新感覚（多分）のMusical Cinderellaの開演です！Let’s get loud！✨✨' },
         { cat:'council', title: '公開ディベート', at: 'D202', by: 'ESSディベート部', src: '/images/prg/essdebate.jpg', desc: '今年も公開英語ディベートを行います！個性豊かな部員たちが全国レベルのスピーチを披露してくれます。国語や社会でやった人もいるディベートが「競技」になるとどうなるのか...？結果を是非確かめに来てください！' },
         { cat:'council', title: 'アニメ・ドラマの主題歌', at: '第1アリーナ', by: '吹奏楽部', src: '/images/prg/unknown.png', desc: 'こんにちは!!吹奏楽部は、70名以上の大所帯で日々活動しています。普段は個性で溢れる私達ですが、演奏ではひとつに団結して美しい音楽を奏でます。ぜひステージにお越しください💕' },
         { cat:'council', title: 'コーラス部', at: '第1アリーナ', by: 'コーラス部', src: '/images/prg/unknown.png', desc: 'こんにちは！コーラス部です！ 私達は「聴いてくださる方々に感動を」をモットーに日々楽しく活動しています。 兎原祭ではj-popからコンクール曲まで様々な曲を披露します。 また、合唱だけではなくダンスもあり、誰でも楽しめる内容となっているので、ぜひお越しください！' },
         { cat:'council', title: '魚・製作物展示・実験', at: 'E202/D201', by: '科学研究部', src: '/images/prg/science.jpg', desc: '科学研究部では、魚や部員が製作したものを展示しています。また、エッグドロップチャレンジを行うこともできます。実験を行っているかもしれません。是非来てみて下さい。' },
-        { cat:'council', title: '合格おみくじ・恋みくじ', at: '中庭/D201', by: '男子バスケットボール部', src: '/images/prg/basketball.jpg', desc: '男子篭球部は普通の御籤だけではなく，大学受験，中学受験を占う合格御籤，恋愛経験豊富な我々のアドバイス付き恋御籤などを販売します．一回100円．割と豪華な景品あり．' },
+        { cat:'council', title: '合格おみくじ・恋みくじ', at: '中庭/D201', by: '男子バスケットボール部', src: '/images/prg/basketball.jpg', desc: '男子篭球部は普通の御籤だけではなく，大学受験，中学受験を占う合格御籤，恋愛経験豊富な我々のアドバイス付き恋御籤などを販売します．一回50円．割と豪華な景品あり．' },
         { cat:'council', title: 'ギネス世界記録にチャレンジ！', at: 'グラウンドステージ', by: '男子テニス部', src: '/images/prg/stage.png', desc: '男子テニス部のとある部員がギネス世界記録に本気で挑戦します。この日のために汗水たらしてトレーニングを積んできました。本気で本気の彼の下剋上をご覧ください。' },
         { cat:'council', title: 'クッキー販売', at: '中庭/E202', by: '家庭科研究部', src: '/images/prg/kateken.jpg', desc: '伝統の味、家庭科研究部のクッキーを販売しています！味はプレーン、チョコチップ、抹茶、紅茶の4種類！是非お買い求め下さい✨' },
         { cat:'council', title: 'フードドライブと食のクイズ', at: 'C103[リフレッシュルーム]', by: 'ESD foodプロジェクト', src: '/images/prg/esdfood.png', desc: '家に無駄になっている食品はありませんか?ESDフードプロジェクトでは今年度もフードドライブを行います!クイズも用意していますので、是非色々な食品を持ってきて下さい!' },
@@ -169,6 +169,7 @@ export default {
         { cat:'council', title: '缶バッジ作りワークショップ・部員作品展示', at: 'E304', by: '美術部', src: '/images/prg/art.jpg', desc: 'びーっ、びじゅつぶ！げんきげんき！（某教育テレビのマラカス付き妖精風）　毎年大盛況の缶バッジ作りワークショップ、今年も開催します！部員を唸らせる作品を作った方には何かいいことがあるかも！？' },
         { cat:'council', title: 'クラシックやジャズ、Jpop', at: '第1アリーナ', by: 'アンサンブル同好会', src: '/images/prg/unknown.png', desc: 'アンサンブルの敷居をグッと下げて、お馴染みの楽曲を演奏します。クラシックやジャズ、Jpopと幅広いジャンルでお楽しみ頂けます。絶賛会員募集中！是非お越しください！皆さんを素敵なコンサート会場にお連れします。' },
         { cat:'council', title: '演劇部', at: '第1アリーナ', by: '演劇部', src: '/images/prg/unknown.png', desc: 'こんにちは、演劇部です！今回の作品は、いわゆる「学園モノ」。今しか出せないリアルさを大切に表現します。また、今回は一部ダブルキャスト。キャストによる違いも楽しめる要素のひとつです。是非お越しください！' },
+        { cat:'council', title: 'とげたんオセロ', at: 'D303', by: 'PC部', src: '/images/prg/unknown.png', desc: 'プログラミングでゲーム作りや動画作りをみんなでしたり、1人でしたりと和気藹々とした楽しくフレンドリーな部活動です。' },
         { cat:'council', title: '学校グッズ販売', at: '中庭/D101', by: '生徒会執行部', src: '/images/prg/goods.png', desc: 'こんにちは！生徒会執行部です。中庭のアリーナ前で学校グッズを販売しています！ぜひお立ち寄りください！' },
         { cat:'team', title: '先生とプレバト!!', at: 'E104/E301', by: '有志+国語の先生', src: '/images/prg/haiku.png', desc: '俳句の査定でお馴染みの才能査定ランキングが兎原祭にやってきます！見事才能アリに輝くのは誰だ！？' },
         { cat:'team', title: '有志アニメーション', at: 'E301', by: '10回生有志', src: '/images/prg/animation.png', desc: '「悪霊退散!」でお馴染みの陰陽師、実は現代技術を駆使する者だった!?この世界に隔たりなんて存在しない。奇想天外な「歴史×テクノロジー」堂々登場！' },
@@ -179,7 +180,8 @@ export default {
         { cat:'team', title: 'PIBARA(バンド)', at: '音楽室', by: '11回生有志', src: '/images/prg/musicroom.png', desc: '私たちPIBARAです！11回生5人で構成されたバンドグループです。未経験者もいる中、約1ヶ月間の練習で頑張って仕上げました！みんなが知ってる有名なあの曲も！？是非音楽室を覗いてみて下さい！！' },
         { cat:'team', title: 'AsRicotta(ダンス)', at: 'グラウンドステージ', by: '11～13回生有志', src: '/images/prg/stage.png', desc: '私たちアスリコットは11回生から13回生までのメンバーでダンスパフォーマンスをします！学年をまたいでのパフォーマンスも！？来たらあなたも盛り上がること間違いなし！ぜひ見に来てください！' },
         { cat:'teacher', title: '入学適性検査相談コーナー', at: 'C105[図書室]', by: '入学適性検査推進室', src: '/images/prg/council.png', desc: '適性検査相談会を実施します。' },
-        { cat:'teacher', title: '家庭科教科展示', at: '', by: '家庭科', src: '/images/prg/homeeconomics.jpg', desc: '生徒の日々の努力をご覧ください。' },
+        { cat:'teacher', title: '家庭科教科展示', at: 'C305', by: '家庭科', src: '/images/prg/homeeconomics.jpg', desc: '生徒の日々の努力をご覧ください。※進路相談室です。家庭科教室ではありません' },
+        { cat:'teacher', title: 'PTA制服リユース＆ミニ休憩スペース', at: 'E101[2年1組]/D101', by: 'PTA', src: '/images/prg/council.png', desc: '開催時間:　5/20(金)午前9：00～11：00　午後12：10～14：00' },
       ],
     };
   },

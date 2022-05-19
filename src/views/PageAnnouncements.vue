@@ -5,7 +5,8 @@
       <br><br>
       みなさんに向けたお知らせ・お願いです。
       <br><br>
-      <div class="text-h4">保護者の方へ(フードコート)</div>
+      <div class="text-h4">保護者の方へ</div>
+      <div class="text-h5">フードコート</div>
       20日にご来校される保護者の皆様には、飲食を行うスペースとしてフードコートを16席ご用意しております。新型コロナウイルス感染対策としてフードコート以外での水分補給を除く飲食は原則不可とさせていただきますので、ご理解の程よろしくお願いします。<br>
       フードコートの空席状況は<router-link :to=" { name: 'programs' } ">こちらからご確認いただけます</router-link>。
       <v-row>
@@ -14,7 +15,12 @@
           <iframe height="700px" width="100%" class="GoogleDriveViewer__Frame--1sgoy elevation-3 rounded-lg" src="https://docs.google.com/viewer?url=https%3A%2F%2Ftogensai.jp%2Ffiles%2Ffoodcourt.pdf&amp;embedded=true" style="border: none;">読み込んでいます...</iframe>
         </v-col>
       </v-row>
-      <br><br>
+      <br>
+      <div class="text-h5">制服リユース</div>
+      PTAの制服リユース＆ミニ休憩スペースは5/20(金)午前9：00～11：00、午後12：10～14：00に開設いたします。
+      場所は２年１組（雨天時選択D1教室）です。
+      <br>
+      <br>
       <div class="text-h4">防疫対策</div>
       <v-card elevation="1" style="border: 1px solid black; margin-bottom:5px;">
         <v-card-title class="font-weight-bold"><v-icon color="pink">mdi-alert-circle</v-icon>&nbsp;守ってほしいこと</v-card-title>
